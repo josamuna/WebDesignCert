@@ -10,7 +10,7 @@ Worshop projects.
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">    
+    <meta charset="UTF-8" />
     <title>CatPhotoApp</title>
   </head>
   <body>
@@ -18,9 +18,24 @@ Worshop projects.
       <h1>CatPhotoApp</h1>
       <section>
         <h2>Cat Photos</h2>
-        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
-        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+        <p>
+          Everyone loves
+          <a
+            href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg"
+            >cute cats</a
+          >
+          online!
+        </p>
+        <p>
+          See more
+          <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>
+          in our gallery.
+        </p>
+        <a href="https://freecatphotoapp.com"
+          ><img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+            alt="A cute orange cat lying on its back."
+        /></a>
       </section>
       <section>
         <h2>Cat Lists</h2>
@@ -31,8 +46,11 @@ Worshop projects.
           <li>lasagna</li>
         </ul>
         <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+            alt="A slice of lasagna on a plate."
+          />
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>
         </figure>
         <h3>Top 3 things cats hate:</h3>
         <ol>
@@ -41,14 +59,18 @@ Worshop projects.
           <li>other cats</li>
         </ol>
         <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+            alt="Two tabby kittens sleeping together on a couch."
+          />
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
         </figure>
       </section>
     </main>
     <footer>
       <p>
-        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+        No Copyright -
+        <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
       </p>
     </footer>
   </body>
@@ -67,36 +89,42 @@ Worshop projects.
 
 ```html
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>XYZ Bookstore Page</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>XYZ Bookstore Page</title>
+  </head>
 
-<body>
-  <h1>XYZ Bookstore</h1>
-  <p>Browse our collection of amazing books!</p>
-  
-  <div class="card-container">
-    <div class="card" id="sally-adventure-book">
-      <h2>Sally's SciFi Adventure</h2>
-      <p>This is an epic story of Sally and her dog Rex as they navigate through other worlds.</p>
-      <button class="btn">Buy Now</button>
+  <body>
+    <h1>XYZ Bookstore</h1>
+    <p>Browse our collection of amazing books!</p>
+
+    <div class="card-container">
+      <div class="card" id="sally-adventure-book">
+        <h2>Sally's SciFi Adventure</h2>
+        <p>
+          This is an epic story of Sally and her dog Rex as they navigate
+          through other worlds.
+        </p>
+        <button class="btn">Buy Now</button>
+      </div>
+
+      <div class="card" id="dave-cooking-book">
+        <h2>Dave's Cooking Adventure</h2>
+        <p>
+          This is the story of Dave as he learns to cook everything from
+          pancakes to pasta, one recipe at a time.
+        </p>
+        <button class="btn">Buy Now</button>
+      </div>
     </div>
-    
-    <div class="card" id="dave-cooking-book">
-      <h2>Dave's Cooking Adventure</h2>
-      <p>This is the story of Dave as he learns to cook everything from pancakes to pasta, one recipe at a time.</p>
-      <button class="btn">Buy Now</button>
+
+    <p>Review your selections and continue to checkout.</p>
+
+    <div class="btn-container">
+      <button class="btn" id="view-cart-btn">View Cart</button>
+      <button class="btn" id="checkout-btn">Checkout</button>
     </div>
-  </div>
-  
-  <p>Review your selections and continue to checkout.</p>
-  
-  <div class="btn-container">
-	<button class="btn" id="view-cart-btn">View Cart</button>    
-	<button class="btn" id="checkout-btn">Checkout</button>
-  </div>
-</body>
+  </body>
 </html>
 ```
 
@@ -112,8 +140,8 @@ Worshop projects.
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Working with the HTML Audio Element</title>
   </head>
   <body>
@@ -121,18 +149,29 @@ Worshop projects.
 
     <h2>Can't Stay Down</h2>
     <p>Artist: Quincy Larson</p>
-    
-    <audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3" loop controls></audio>
+
+    <audio
+      src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3"
+      loop
+      controls
+    ></audio>
 
     <h2>Cruising for a Musing</h2>
     <p>Artist: Quincy Larson</p>
 
-    <audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/cruising-for-a-musing.mp3" loop controls></audio>
+    <audio
+      src="https://cdn.freecodecamp.org/curriculum/js-music-player/cruising-for-a-musing.mp3"
+      loop
+      controls
+    ></audio>
 
     <h2>Scratching the Surface</h2>
     <p>Artist: Quincy Larson</p>
-    <audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/scratching-the-surface.mp3" loop controls></audio>
-
+    <audio
+      src="https://cdn.freecodecamp.org/curriculum/js-music-player/scratching-the-surface.mp3"
+      loop
+      controls
+    ></audio>
   </body>
 </html>
 ```
@@ -149,8 +188,8 @@ Worshop projects.
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Working with the HTML Video Element</title>
   </head>
   <body>
@@ -165,20 +204,22 @@ Worshop projects.
       <source
         src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
         type="video/mp4"
-      >
+      />
       <source
         src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.webm"
         type="video/webm"
-      >
+      />
       <source
         src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.ogg"
         type="video/ogg"
-      >
-    <source src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.mov" type="video/quicktime">
+      />
+      <source
+        src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.mov"
+        type="video/quicktime"
+      />
     </video>
   </body>
 </html>
-
 ```
 
 ## Output
@@ -230,46 +271,59 @@ Worshop projects.
       src="https://www.youtube.com/embed/I0_951_MPE0"
       allow="accelerometer autoplay clipboard-write encrypted-media gyroscope web-share"
       referrerpolicy="strict-origin-when-cross-origin"
-allowfullscreen      
+      allowfullscreen
     >
     </iframe>
   </body>
 </html>
 ```
 
-## Output
-
 ## 7. MajorWebBrowser
 
 `Source code`
 
 ```html
-<!DOCTYPE html> 
-<html lang="en"> 
-    <head> 
-        <meta charset="UTF-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>List of Browsers and Descriptions</title> 
-    </head> 
-    <body> 
-        <h1>List of Major Web Browsers</h1> 
-        <dl>
-            <dt>Google Chrome</dt>
-            <dd>This is a free web browser developed by Google and first released in 2008.</dd>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List of Browsers and Descriptions</title>
+  </head>
+  <body>
+    <h1>List of Major Web Browsers</h1>
+    <dl>
+      <dt>Google Chrome</dt>
+      <dd>
+        This is a free web browser developed by Google and first released in
+        2008.
+      </dd>
 
-            <dt>Firefox</dt>
-            <dd>This is a free web browser developed by the Mozilla Corporation and first created in 2004.</dd>
+      <dt>Firefox</dt>
+      <dd>
+        This is a free web browser developed by the Mozilla Corporation and
+        first created in 2004.
+      </dd>
 
-            <dt>Safari</dt>
-            <dd>This browser was developed by Apple and is the default browser for iPhone, iPad and Mac devices.</dd>
+      <dt>Safari</dt>
+      <dd>
+        This browser was developed by Apple and is the default browser for
+        iPhone, iPad and Mac devices.
+      </dd>
 
-            <dt>Brave</dt>
-            <dd>This is a free web browser first released in 2016 that is based on the Chromium web browser.</dd>
+      <dt>Brave</dt>
+      <dd>
+        This is a free web browser first released in 2016 that is based on the
+        Chromium web browser.
+      </dd>
 
-			<dt>Arc</dt>    
-			<dd>This is a free Chromium based web browser first released in 2023 by The Browser Company.</dd>        
-        </dl>
-    </body> 
+      <dt>Arc</dt>
+      <dd>
+        This is a free Chromium based web browser first released in 2023 by The
+        Browser Company.
+      </dd>
+    </dl>
+  </body>
 </html>
 ```
 
@@ -277,5 +331,72 @@ allowfullscreen
 
 ![Image](https://github.com/user-attachments/assets/a94651e0-df18-43a1-875d-d7c2b51da7e4)
 
+## 8-JobTipsPage
 
+`Source code`
 
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quincy's Tips for Getting a Developer Job</title>
+  </head>
+  <body>
+    <h1>Quincy's Tips for Getting a Developer Job</h1>
+    <p>
+      Learning to code is hard, but as Quincy Larson says,
+      <q cite="https://www.freecodecamp.org/news/learn-to-code-book/"
+        >You can become a developer.</q
+      >
+    </p>
+
+    <main>
+      <section>
+        <h2>Envisioning Success</h2>
+        <blockquote
+          cite="https://www.freecodecamp.org/news/learn-to-code-book/"
+        >
+          Can you imagine what it would be like to be a successful developer? To
+          have built software systems that people rely upon?
+        </blockquote>
+        <p>
+          &mdash;Quincy Larson,
+          <cite>How to Learn to Code and Get a Developer Job [Full Book]</cite>
+        </p>
+      </section>
+      <section>
+        <h2>Importance of Networking</h2>
+        <blockquote
+          cite="https://www.freecodecamp.org/news/learn-to-code-book/"
+        >
+          <p>So much of getting a job is who you know.</p>
+          <p>
+            It's OK to be an introvert, but you do need to push your boundaries.
+          </p>
+          <p>Create GitHub, Twitter, LinkedIn, and Discord accounts.</p>
+          <p>Go to tech meetups and conferences. Travel if you have to.</p>
+        </blockquote>
+      </section>
+      <section>
+        <h2>Importance of Building a Reputation</h2>
+        <blockquote
+          cite="https://www.freecodecamp.org/news/learn-to-code-book/"
+        >
+          <p>Share short video demos of your projects.</p>
+          <p>Keep applying to speak at bigger and bigger conferences.</p>
+          <p>
+            Hang out at hackerspaces and help people who are even newer to
+            coding than you.
+          </p>
+        </blockquote>
+      </section>
+    </main>
+  </body>
+</html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/a41fb6c5-2831-4936-bec9-b332f7f9e93f)
