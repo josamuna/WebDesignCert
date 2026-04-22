@@ -9,7 +9,9 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 3. Audio and Video player - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/3-AudioVideoPlayer) 
 - [x] 4. VideoPlayer - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/4-VideoCompilationPage)
 
-## workshop
+## Workshop 
+
+[Workshop Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop)
 
 - [x] 1. CatPhoto Project
 - [x] 2. Bookstore Project
@@ -17,5 +19,6 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 4. VideoPlayer Project
 - [x] 5. EartBeat Project
 - [x] 6. VideoPlaying Project with iframe
+- [x] 7. MajorWebBrowser Project
 
 > Learn more from [freeCodeCamp](https://www.freecodecamp.org/) for free and get your certificate.

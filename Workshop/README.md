@@ -1,0 +1,281 @@
+# All Workshop
+
+Worshop projects.
+
+## 1. CatPhoto Project
+
+`Source code`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">    
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>catnip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/ae09d3c9-c4e4-4ef4-a851-f48577374535)
+
+![Image](https://github.com/user-attachments/assets/12ac7fde-7ee1-4e8c-87b5-ca431185c043)
+
+## 2. Bookstore Project
+
+`Source code`
+
+```html
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>XYZ Bookstore Page</title>
+</head>
+
+<body>
+  <h1>XYZ Bookstore</h1>
+  <p>Browse our collection of amazing books!</p>
+  
+  <div class="card-container">
+    <div class="card" id="sally-adventure-book">
+      <h2>Sally's SciFi Adventure</h2>
+      <p>This is an epic story of Sally and her dog Rex as they navigate through other worlds.</p>
+      <button class="btn">Buy Now</button>
+    </div>
+    
+    <div class="card" id="dave-cooking-book">
+      <h2>Dave's Cooking Adventure</h2>
+      <p>This is the story of Dave as he learns to cook everything from pancakes to pasta, one recipe at a time.</p>
+      <button class="btn">Buy Now</button>
+    </div>
+  </div>
+  
+  <p>Review your selections and continue to checkout.</p>
+  
+  <div class="btn-container">
+	<button class="btn" id="view-cart-btn">View Cart</button>    
+	<button class="btn" id="checkout-btn">Checkout</button>
+  </div>
+</body>
+</html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/063869c9-a696-47bb-88e8-ee63faac75ed)
+
+## 3. MusicPlayer Project
+
+`Source code`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with the HTML Audio Element</title>
+  </head>
+  <body>
+    <h1>freeCodeCamp Tunes</h1>
+
+    <h2>Can't Stay Down</h2>
+    <p>Artist: Quincy Larson</p>
+    
+    <audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3" loop controls></audio>
+
+    <h2>Cruising for a Musing</h2>
+    <p>Artist: Quincy Larson</p>
+
+    <audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/cruising-for-a-musing.mp3" loop controls></audio>
+
+    <h2>Scratching the Surface</h2>
+    <p>Artist: Quincy Larson</p>
+    <audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/scratching-the-surface.mp3" loop controls></audio>
+
+  </body>
+</html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/f7f61f38-6d7c-4390-b91e-e3ed0ba72a66)
+
+## 4. VideoPlayer Project
+
+`Source code`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with the HTML Video Element</title>
+  </head>
+  <body>
+    <h1>Working with the HTML Video Element</h1>
+    <video
+      width="640"
+      loop
+      controls
+      muted
+      poster="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg"
+    >
+      <source
+        src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+        type="video/mp4"
+      >
+      <source
+        src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.webm"
+        type="video/webm"
+      >
+      <source
+        src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.ogg"
+        type="video/ogg"
+      >
+    <source src="https://cdn.freecodecamp.org/curriculum/labs/mapmethod.mov" type="video/quicktime">
+    </video>
+  </body>
+</html>
+
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/e3d019ae-7fcc-4c3e-9b61-afbd36bbd12e)
+
+## 5. EartBeat Project
+
+`Source code`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Heart Icon</title>
+  </head>
+  <body>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="red">
+      <path
+        d="M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z"
+      ></path>
+    </svg>
+  </body>
+</html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/8d5a6c38-0fd2-4650-bce6-3b6004786e06)
+
+## 6. VideoPlaying Project with iframe
+
+`Source code`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Videos in an iframe</title>
+  </head>
+  <body>
+    <h1>iframe Video Display</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/I0_951_MPE0"
+      allow="accelerometer autoplay clipboard-write encrypted-media gyroscope web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen      
+    >
+    </iframe>
+  </body>
+</html>
+```
+
+## Output
+
+## 7. MajorWebBrowser
+
+`Source code`
+
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>List of Browsers and Descriptions</title> 
+    </head> 
+    <body> 
+        <h1>List of Major Web Browsers</h1> 
+        <dl>
+            <dt>Google Chrome</dt>
+            <dd>This is a free web browser developed by Google and first released in 2008.</dd>
+
+            <dt>Firefox</dt>
+            <dd>This is a free web browser developed by the Mozilla Corporation and first created in 2004.</dd>
+
+            <dt>Safari</dt>
+            <dd>This browser was developed by Apple and is the default browser for iPhone, iPad and Mac devices.</dd>
+
+            <dt>Brave</dt>
+            <dd>This is a free web browser first released in 2016 that is based on the Chromium web browser.</dd>
+
+			<dt>Arc</dt>    
+			<dd>This is a free Chromium based web browser first released in 2023 by The Browser Company.</dd>        
+        </dl>
+    </body> 
+</html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/a94651e0-df18-43a1-875d-d7c2b51da7e4)
+
+
+
