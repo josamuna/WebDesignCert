@@ -1,3 +1,10 @@
+# VideoCompilationPage
+
+A sample Video Player using **iframe**.
+
+## Source Code
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,3 +35,9 @@
   </main>
 </body>
 </html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/40826943-56e8-4c15-a112-0df3581cc45c)
+

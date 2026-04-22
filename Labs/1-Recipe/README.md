@@ -1,2 +1,46 @@
-# WebDesignCert
-A journey to gain Web Design Certification on FreeCodeCamp
+# Cassava leaves Recipe
+
+A sample Recipe.
+
+## Source Code
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Recipe Project</title>
+  </head>
+  <body>
+    <h1>Cassava leaves Recipe</h1>
+    <p>Welcome to my new recipe I want to build tohether. It all about Cassava Leaves for 4 persons.</p>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.zEOVZWMmqpceP6EEyn5Z8wHaGC%3Fpid%3DApi&f=1&ipt=cee0badeae714c448477eeddad0615c823c9e40e628b57ccd22fd53e473483eb&ipo=images" alt="Casava leaves for a recipe">
+    <h2>Ingredients</h2>
+    <ul>
+      <li>1 brazier with charcoal or 1 gas stove.</li>
+      </li>1 Pestle and 1 mortar.</li>
+      <li>1 kg of sorted cassava leaves.</li>
+      <li>1/2 liter of palm oil.</li>
+      <li>3 liters of water.</li>
+      <li>1 onion.</li>
+      <li>2 leeks.</li>
+      <li>2 green bell peppers.</li>
+    </ul>
+    <h2>Instructions</h2>
+    <ol>
+      <li>Wash the cassava leaves thoroughly with warm water.</li>
+      <li>Pound the cassava leaves.</li>
+      <li>Place the cassava leaves in a pot.</li>
+      <li>Add the two chopped bell peppers.</li>
+      <li>Add the two chopped leeks.</li>
+      <li>Put in the palm oil.</li>
+      <li>Let it boil for 2 hours until fully cooked.</li>
+    </ol>
+  </body>
+</html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/6bf41303-3f03-4613-8647-4fb85ab89dac)
+

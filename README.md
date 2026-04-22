@@ -17,3 +17,5 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 4. VideoPlayer Project
 - [x] 5. EartBeat Project
 - [x] 6. VideoPlaying Project with iframe
+
+> Learn more from [freeCodeCamp](https://www.freecodecamp.org/) for free and get your certificate.
