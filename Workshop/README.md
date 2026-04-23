@@ -632,3 +632,75 @@ Worshop projects.
 ## Output
 
 ![Image](https://github.com/user-attachments/assets/e5b6f1e3-07db-4776-82ee-24945f3cf35c)
+
+## 11. FinalExamsTable
+
+`Source code`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculus Final Exams Table</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <table>
+      <caption>
+        Calculus Final Exam Grades
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Last Name</th>
+          <th>First Name</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Davis</td>
+          <td>Alex</td>
+          <td>54</td>
+        </tr>
+
+        <tr>
+          <td>Doe</td>
+          <td>Samantha</td>
+          <td>92</td>
+        </tr>
+
+        <tr>
+          <td>Rodriguez</td>
+          <td>Marcus</td>
+          <td>88</td>
+        </tr>
+
+        <tr>
+          <td>Thompson</td>
+          <td>Jane</td>
+          <td>77</td>
+        </tr>
+
+        <tr>
+          <td>Williams</td>
+          <td>Natalie</td>
+          <td>83</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2">Average Grade</td>
+          <td>78.8</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/7bbdbc5c-4bad-483b-9ae5-41b6327c7787)
