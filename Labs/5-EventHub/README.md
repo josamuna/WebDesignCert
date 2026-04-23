@@ -1,0 +1,107 @@
+# EventHub
+
+A sample Event Hub.
+
+## Source Code
+
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Event Hub</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Event Hub</h1>
+      <nav>
+        <ul>
+          <li><a href="#upcoming-events">Upcoming Events</a></li>
+          <li><a href="#past-events">Past Events</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="upcoming-events">
+        <h2>Upcoming Events</h2>
+        <article>
+          <h3>BootCamp Session</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            consequuntur distinctio veritatis! Aspernatur dignissimos odit
+            eveniet repellat neque, labore quaerat quia iure optio nesciunt
+            cumque quisquam! Consectetur dolor laborum iusto.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            consequuntur distinctio veritatis! Aspernatur dignissimos odit
+            eveniet repellat neque, labore quaerat quia iure optio nesciunt
+            cumque quisquam! Consectetur dolor laborum iusto.
+          </p>
+        </article>
+        <article>
+          <h3>AI Robot Marathon</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            consequuntur distinctio veritatis! Aspernatur dignissimos odit
+            eveniet repellat neque, labore quaerat quia iure optio nesciunt
+            cumque quisquam! Consectetur dolor laborum iusto.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            consequuntur distinctio veritatis! Aspernatur dignissimos odit
+            eveniet repellat neque, labore quaerat quia iure optio nesciunt
+            cumque quisquam! Consectetur dolor laborum iusto.
+          </p>
+        </article>
+      </section>
+      <section id="past-events">
+        <h2>Past Events</h2>
+        <article>
+          <h3>Hachathon - Season 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            consequuntur distinctio veritatis! Aspernatur dignissimos odit
+            eveniet repellat neque, labore quaerat quia iure optio nesciunt
+            cumque quisquam! Consectetur dolor laborum iusto.
+          </p>
+          <figure>
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F1484758991%2Fphoto%2Fhackathon-concept-the-meeting-at-the-white-office-table.jpg"
+              alt="First hackathon Season"
+            />
+            <figcaption>Hachathon Saison 1 for Web Developers</figcaption>
+          </figure>
+        </article>
+        <article>
+          <h3>Hachathon - Season 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            consequuntur distinctio veritatis! Aspernatur dignissimos odit
+            eveniet repellat neque, labore quaerat quia iure optio nesciunt
+            cumque quisquam! Consectetur dolor laborum iusto.
+          </p>
+          <figure>
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.rawpixel.com%2Fimage_social_landscape%2FcHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTA0L3NyLWltYWdlLTAzMDQyNS1mbGswMi1zLTAwOV8xLmpwZw.jpg"
+              alt="Second hackathon Season"
+            />
+            <figcaption>Hachathon Saison 2 for designers</figcaption>
+          </figure>
+          <p>
+            Expected time:
+            <time datetime="2026-04-30T1215">30 April at 12:15</time>
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/20b1f3c7-26bb-4232-903e-b19f267deced)
+
+![Image](https://github.com/user-attachments/assets/770b35d9-6c42-4d21-b046-aaf72dd0136a)
