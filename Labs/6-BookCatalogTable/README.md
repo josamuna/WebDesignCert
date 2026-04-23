@@ -1,0 +1,73 @@
+# BookCatalogTable
+
+A sample Book Catalog using a Table structure.
+
+## Source Code
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+<body>
+  <h1>Book Catalog</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+      </th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fifty Shades od Grey</td>
+        <td>E.L. James</td>
+        <td>Historical</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>The Girl Who Kicked Hornets'Nest</td>
+        <td>Stieg Larsson</td>
+        <td>Fiction</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Rogue Lawyer</td>
+        <td>John Grisham</td>
+        <td>Low</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>The Cuckoo's Calling</td>
+        <td>J.K. Rowling</td>
+        <td>Entairtenment</td>
+        <td>2013</td>
+      </tr>
+      <tr>
+        <td>The President is Missing</td>
+        <td>James Patterson and Bill Clinton</td>
+        <td>Political</td>
+        <td>2018</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
+```
+
+## Output
+
+![Image](https://github.com/user-attachments/assets/c4505586-265a-4058-ab13-8ecb70010f21)
