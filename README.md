@@ -8,6 +8,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 2. TravelAgency - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/2-TravelAgency)
 - [x] 3. Audio and Video player - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/3-AudioVideoPlayer)
 - [x] 4. VideoPlayer - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/4-VideoCompilationPage)
+- [x] 5. EventHub - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/5-EventHub)
 
 ## Workshop
 
