@@ -704,3 +704,15 @@ Worshop projects.
 ## Output
 
 ![Image](https://github.com/user-attachments/assets/7bbdbc5c-4bad-483b-9ae5-41b6327c7787)
+
+## 12. DebugCodeJourneyBlog
+
+`Source code`
+
+```html
+
+```
+
+## Output
+
+![Image]()

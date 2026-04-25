@@ -25,7 +25,8 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 7. MajorWebBrowser Project
 - [x] 8. JobTipsPage Project
 - [x] 9. CatBlogPage Project
-- [x] 10. Hotel Feedback Form Project
+- [x] 10. HotelFeedbackForm Project
 - [x] 11. FinalExamsTable Project
+- [ ] 12. DebugCodeJourneyBlog Project
 
 > Learn more from [freeCodeCamp](https://www.freecodecamp.org/) for free and get your certificate.
