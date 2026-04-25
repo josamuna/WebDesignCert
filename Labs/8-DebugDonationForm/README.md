@@ -5,9 +5,33 @@ Dubugging a Donation Form.
 ## Source Code
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Donation Form</title>
+  </head>
+  <body>
+    <h1>Donation Form</h1>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required />
 
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="amount">Donation Amount ($):</label>
+      <input type="number" id="amount" name="amount" required />
+
+      <input type="checkbox" id="newsletter" name="newsletter" />
+      <label for="newsletter">Subscribe</label>
+
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
 ```
 
 ## Output
 
-![Image]()
+![Image](https://github.com/user-attachments/assets/24b64ae6-68b4-436a-9d05-ae6c8072e9e6)
