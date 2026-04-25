@@ -11,6 +11,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 5. EventHub - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/5-EventHub)
 - [x] 6. BookCatalogTable - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/6-BookCatalogTable)
 - [x] 7. SurveyForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/7-SurveyForm)
+- [ ] 8. DebugDonationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/8-DebugDonationForm)
 
 ## Workshop
 
