@@ -10,7 +10,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 4. VideoPlayer - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/4-VideoCompilationPage)
 - [x] 5. EventHub - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/5-EventHub)
 - [x] 6. BookCatalogTable - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/6-BookCatalogTable)
-- [] 7. SurveyForm - [Source code]()
+- [x] 7. SurveyForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/7-SurveyForm)
 
 ## Workshop
 
