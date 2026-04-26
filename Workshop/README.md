@@ -855,7 +855,33 @@ Worshop projects.
 `Source code`
 
 ```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Accessible Controls</title>
+  </head>
+  <body>
+    <h1>Audio Controls</h1>
 
+    <button type="button">Play</button>
+
+    <div>
+      <span id="volume-label">Volume</span>
+      <span id="volume-description">Adjust the sound level</span>
+      <input
+        type="range"
+        min="0"
+        max="100"
+        value="50"
+        aria-labelledby="volume-label volume-description"
+      />
+    </div>
+    <button type="button">Mute</button>
+  </body>
+</html>
 ```
 
 ## Output
+
+![Image](https://github.com/user-attachments/assets/7250fc41-f08d-4616-bd53-f3d421ada193)
