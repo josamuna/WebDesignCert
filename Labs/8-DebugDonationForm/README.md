@@ -1,6 +1,6 @@
 # DebugDonationForm
 
-Dubugging a Donation Form.
+Debugging a Donation Form.
 
 ## Source Code
 

@@ -30,5 +30,6 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 11. FinalExamsTable Project
 - [x] 12. DebugCodeJourneyBlog Project
 - [x] 13. TechConferenceScheduleTable project
+- [ ] 14. AccessibleAudioController Project
 
 > Learn more from [freeCodeCamp](https://www.freecodecamp.org/) for free and get your certificate.

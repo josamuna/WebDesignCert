@@ -849,3 +849,13 @@ Worshop projects.
 ## Output
 
 ![Image](https://github.com/user-attachments/assets/bf9b1e1b-3750-418c-ad78-c092eb591616)
+
+## 14-AccessibleAudioController
+
+`Source code`
+
+```html
+
+```
+
+## Output
