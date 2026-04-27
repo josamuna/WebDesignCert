@@ -12,7 +12,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 6. BookCatalogTable - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/6-BookCatalogTable)
 - [x] 7. SurveyForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/7-SurveyForm)
 - [x] 8. DebugDonationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/8-DebugDonationForm)
-- [ ] 9. CheckoutPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/9-CheckoutPage)
+- [x] 9. CheckoutPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/9-CheckoutPage)
 
 ## Workshop
 
@@ -31,6 +31,6 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 11. FinalExamsTable Project
 - [x] 12. DebugCodeJourneyBlog Project
 - [x] 13. TechConferenceScheduleTable project
-- [ ] 14. AccessibleAudioController Project
+- [x] 14. AccessibleAudioController Project
 
 > Learn more from [freeCodeCamp](https://www.freecodecamp.org/) for free and get your certificate.
