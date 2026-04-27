@@ -13,6 +13,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 7. SurveyForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/7-SurveyForm)
 - [x] 8. DebugDonationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/8-DebugDonationForm)
 - [x] 9. CheckoutPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/9-CheckoutPage)
+- [ ] 10. MovieReviewPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/10-MovieReviewPage)
 
 ## Workshop
 
