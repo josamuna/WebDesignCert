@@ -14,6 +14,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 8. DebugDonationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/8-DebugDonationForm)
 - [x] 9. CheckoutPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/9-CheckoutPage)
 - [x] 10. MovieReviewPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/10-MovieReviewPage)
+- [ ] 11. MultimediaPlayer - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/11-MultimediaPlayer)
 
 ## Workshop
 

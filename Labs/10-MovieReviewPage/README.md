@@ -1,6 +1,6 @@
 # MovieReviewPage
 
-A Movie review page project.
+A Movie review page project supporting accessibility purposes.
 
 > This website was useful for this Project to get [Emojis](https://www.htmlsymbols.xyz/) for free, mainely [the yellow and white emoji stars](https://www.htmlsymbols.xyz/star-symbols).
 

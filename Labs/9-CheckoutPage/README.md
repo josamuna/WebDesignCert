@@ -1,6 +1,6 @@
 # CheckoutPage
 
-Checkout page project.
+Checkout page project supporting accessibility purposes.
 
 ## Source Code
 
