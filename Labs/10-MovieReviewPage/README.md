@@ -7,14 +7,19 @@ A Movie review page project supporting accessibility purposes.
 ## Source Code
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie Review</title>
   </head>
-
+  aria-describedby attribute: Used to provide additional information about an
+  element by associating it with another element that contains the information.
+  This gives people using screen readers immediate access to the additional
+  information when they navigate to the element. Common usage would include
+  associating formatting instructions to a text input or an error message to an
+  input after an invalid form submission.
   <body>
     <main>
       <h1>Movie Review: Rise Beyond</h1>

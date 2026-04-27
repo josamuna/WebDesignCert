@@ -88,6 +88,7 @@ Worshop projects.
 `Source code`
 
 ```html
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -336,7 +337,7 @@ Worshop projects.
 `Source code`
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -406,7 +407,7 @@ Worshop projects.
 `Source code`
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Mr. Whiskers' Blog</title>
@@ -855,7 +856,7 @@ Worshop projects.
 `Source code`
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
