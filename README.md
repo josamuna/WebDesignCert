@@ -20,7 +20,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 
 ### CSS Part
 
-- [ ] 12. DesignBusinessCard - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/12-DesignBusinessCard)
+- [x] 12. DesignBusinessCard - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/12-DesignBusinessCard)
 
 ## Workshop
 
