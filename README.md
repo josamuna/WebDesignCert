@@ -21,7 +21,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 ### CSS Part
 
 - [x] 12. DesignBusinessCard - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/12-DesignBusinessCard)
-- [ ] 13. StylizingTodoList - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/13-StylizingTodoList)
+- [x] 13. StylizingTodoList - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/13-StylizingTodoList)
 
 ## Workshop
 
