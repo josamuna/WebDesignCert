@@ -9,6 +9,8 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20vh;
+  margin-bottom: 12vh;
 }
 .post-img {
   width: 100%;
