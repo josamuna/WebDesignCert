@@ -4,7 +4,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 
 ## Labs
 
-### HTML Part
+### Labs HTML Part
 
 - [x] 1. Recipe - A cassava leaves recip - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/1-Recipe)
 - [x] 2. TravelAgency - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/2-TravelAgency)
@@ -18,7 +18,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 10. MovieReviewPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/10-MovieReviewPage)
 - [x] 11. MultimediaPlayer - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/11-MultimediaPlayer)
 
-### CSS Part
+### Labs CSS Part
 
 - [x] 12. DesignBusinessCard - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/12-DesignBusinessCard)
 - [x] 13. StylizingTodoList - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/13-StylizingTodoList)
@@ -26,7 +26,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 
 ## Workshop
 
-### HTML Part
+### Workshop HTML Part
 
 [Workshop Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop)
 
@@ -45,7 +45,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 13. TechConferenceScheduleTable project
 - [x] 14. AccessibleAudioController Project
 
-### CSS Part
+### Workshop CSS Part
 
 - [x] 15. DesignCafeMenu Project - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/15-DesignCafeMenu)
 
