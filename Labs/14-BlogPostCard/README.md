@@ -50,6 +50,8 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20vh;
+  margin-bottom: 12vh;
 }
 .post-img {
   width: 100%;
@@ -86,4 +88,4 @@ body {
 
 ## Output
 
-![Image](https://github.com/user-attachments/assets/144a44e6-8b71-470b-9e54-758e9b48c7d6)
+![Image](https://github.com/user-attachments/assets/4aea0b41-81e8-421d-9f95-f2c877d48d7f)
