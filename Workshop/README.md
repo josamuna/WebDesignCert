@@ -77,7 +77,7 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## CatPhoto Project Output
 
 ![Image](https://github.com/user-attachments/assets/ae09d3c9-c4e4-4ef4-a851-f48577374535)
 
@@ -129,7 +129,7 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## Bookstore Project Output
 
 ![Image](https://github.com/user-attachments/assets/063869c9-a696-47bb-88e8-ee63faac75ed)
 
@@ -177,7 +177,7 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## MusicPlayer Project Output
 
 ![Image](https://github.com/user-attachments/assets/f7f61f38-6d7c-4390-b91e-e3ed0ba72a66)
 
@@ -223,7 +223,7 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## VideoPlayer Project Output
 
 ![Image](https://github.com/user-attachments/assets/e3d019ae-7fcc-4c3e-9b61-afbd36bbd12e)
 
@@ -248,7 +248,7 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## EartBeat Project Output
 
 ![Image](https://github.com/user-attachments/assets/8d5a6c38-0fd2-4650-bce6-3b6004786e06)
 
@@ -279,7 +279,7 @@ Worshop projects.
 </html>
 ```
 
-## 7. MajorWebBrowser
+## 7. MajorWebBrowser Project
 
 `Source code`
 
@@ -328,11 +328,11 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## MajorWebBrowser Project Output
 
 ![Image](https://github.com/user-attachments/assets/a94651e0-df18-43a1-875d-d7c2b51da7e4)
 
-## 8-JobTipsPage
+## 8-JobTipsPage Project
 
 `Source code`
 
@@ -398,11 +398,11 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## JobTipsPage Project Output
 
 ![Image](https://github.com/user-attachments/assets/a41fb6c5-2831-4936-bec9-b332f7f9e93f)
 
-## 9. CatBlogPage
+## 9. CatBlogPage Project
 
 `Source code`
 
@@ -506,11 +506,11 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## CatBlogPage Project Output
 
 ![Image](https://github.com/user-attachments/assets/cb5ab5e1-31ea-45d7-9e3d-a1a65a3cb17d)
 
-## 10. HotelFeedbackForm
+## 10. HotelFeedbackForm Project
 
 `Source code`
 
@@ -630,11 +630,11 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## HotelFeedbackForm Project Output
 
 ![Image](https://github.com/user-attachments/assets/e5b6f1e3-07db-4776-82ee-24945f3cf35c)
 
-## 11. FinalExamsTable
+## 11. FinalExamsTable Project
 
 `Source code`
 
@@ -702,11 +702,11 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## FinalExamsTable Project Output
 
 ![Image](https://github.com/user-attachments/assets/7bbdbc5c-4bad-483b-9ae5-41b6327c7787)
 
-## 12. DebugCodeJourneyBlog
+## 12. DebugCodeJourneyBlog Project
 
 `Source code`
 
@@ -771,11 +771,11 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## DebugCodeJourneyBlog Project Output
 
 ![Image](https://github.com/user-attachments/assets/e0da5c03-543f-4b67-aad3-73392e254e88)
 
-## 13-TechConferenceScheduleTable
+## 13-TechConferenceScheduleTable Project
 
 `Source code`
 
@@ -847,11 +847,11 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## TechConferenceScheduleTable Project Output
 
 ![Image](https://github.com/user-attachments/assets/bf9b1e1b-3750-418c-ad78-c092eb591616)
 
-## 14-AccessibleAudioController
+## 14-AccessibleAudioController Project
 
 `Source code`
 
@@ -883,6 +883,6 @@ Worshop projects.
 </html>
 ```
 
-## Output
+## AccessibleAudioController Project Output
 
 ![Image](https://github.com/user-attachments/assets/7250fc41-f08d-4616-bd53-f3d421ada193)

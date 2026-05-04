@@ -9,7 +9,7 @@ A sample Audio and Video Player.
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Audio and Video Lab</title>
   </head>
   <body>
@@ -17,12 +17,20 @@ A sample Audio and Video Player.
     <section>
       <h2>Près de toi - Exo Eclat</h2>
       <video width="640" loop controls muted>
-        <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+        <source
+          src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+          type="video/mp4"
+        />
       </video>
     </section>
     <section>
-  <h2>Ancient of days - Ron Kenoly</h2>
-  <audio loop controls muted src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"></audio>
+      <h2>Ancient of days - Ron Kenoly</h2>
+      <audio
+        loop
+        controls
+        muted
+        src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"
+      ></audio>
     </section>
   </body>
 </html>
@@ -31,4 +39,3 @@ A sample Audio and Video Player.
 ## Output
 
 ![Image](https://github.com/user-attachments/assets/c9a909db-5204-4f31-b27b-2e7c270cc820)
-
