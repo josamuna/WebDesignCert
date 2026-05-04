@@ -23,6 +23,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 12. DesignBusinessCard - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/12-DesignBusinessCard)
 - [x] 13. StylizingTodoList - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/13-StylizingTodoList)
 - [x] 14. BlogPostCard - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/14-BlogPostCard)
+- [x] 15. EventFlyerPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/15-EventFlyerPage)
 
 ## Workshop
 
