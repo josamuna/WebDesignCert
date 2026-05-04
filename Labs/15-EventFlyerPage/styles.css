@@ -1,0 +1,55 @@
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: arial, sans-serif;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fcfcfc;
+  color: #333;
+}
+
+hr {
+  width: 85%;
+  border: 0.12em solid #333;
+  margin-top: 1.8em;
+  margin-bottom: 1.4em;
+}
+
+.low-separator {
+  margin-top: 4.2em;
+}
+
+section {
+  width: 33.3%;
+  display: inline-block;
+}
+
+.container {
+  padding-top: 2em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  display: inlign-block;
+  text-align: center;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+.carnival {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
