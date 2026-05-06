@@ -132,12 +132,12 @@ section:target {
 
 ### On hover state
 
-![Image](https://github.com/user-attachments/assets/a03af152-0ae6-4979-8726-b15d71fc7540)
+![Image](https://github.com/user-attachments/assets/9ed3062a-5665-43a1-8f10-bcaa5911cb19)
 
 ### State when a link is clicked
 
-![Image](https://github.com/user-attachments/assets/a03af152-0ae6-4979-8726-b15d71fc7540)
+![Image](https://github.com/user-attachments/assets/2d2a7fb4-4a81-4dbe-bcbc-1418df4580c3)
 
 ### State after clicked the link
 
-![Image](https://github.com/user-attachments/assets/a03af152-0ae6-4979-8726-b15d71fc7540)
+![Image](https://github.com/user-attachments/assets/c1a6e6d6-c622-4e85-b901-f3d669f7ccdd)
