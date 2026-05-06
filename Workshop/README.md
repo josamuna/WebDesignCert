@@ -886,11 +886,3 @@ Worshop projects.
 ## AccessibleAudioController Project Output
 
 ![Image](https://github.com/user-attachments/assets/7250fc41-f08d-4616-bd53-f3d421ada193)
-
-## GreetingCard Project
-
-`Source code`
-
-## GreetingCard Project Output
-
-![Image]()
