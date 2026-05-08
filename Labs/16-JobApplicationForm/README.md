@@ -212,14 +212,14 @@ input:first-of-type {
 
 ![Image](https://github.com/user-attachments/assets/eddcfade-01c8-4b01-af7b-7400c38a8a20)
 
-### State whith submit button hover
+### State with submit button hover
 
 ![Image](https://github.com/user-attachments/assets/a39f92d3-dcd9-4f63-9562-aaa1d60db7b5)
 
-### State whit invalid field
+### State with invalid field
 
 ![Image](https://github.com/user-attachments/assets/332bf897-469b-4a9f-903f-fb5021f1d3e4)
 
-### State whith all valids field
+### State with all valids fields
 
 ![Image](https://github.com/user-attachments/assets/78952387-c9b0-4a82-b43e-22a58a26bbf3)
