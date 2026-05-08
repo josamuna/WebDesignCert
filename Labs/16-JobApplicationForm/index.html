@@ -8,9 +8,9 @@
   </head>
   <body>
     <div class="container">
-      <h1>Job Application Form</h1>
+      <h1 class="center">Job Application Form</h1>
       <form>
-        <label for="name">Full Name:</label>
+        <label for="name" class="label-view">Full Name:</label>
         <input
           type="text"
           id="name"
@@ -18,15 +18,16 @@
           placeholder="Enter your name"
           required
         />
-        <label for="email">Email:</label>
+        <label for="email" class="label-view">Email:</label>
         <input
           type="email"
           id="email"
           name="email"
           placeholder="Enter your email"
+          required
         />
-        <label for="position">Position:</label>
-        <select id="position" name="position">
+        <label for="position" class="label-view">Position:</label>
+        <select id="position" name="position" required>
           <option value="" selected disabled>Select a position</option>
           <option value="developer">Developer</option>
           <option value="designer">Designer</option>
@@ -41,17 +42,24 @@
             value="full-time"
             checked
           />
-          <label>Full-Time</label>
+          <label for="full-time" class="radio-label">Full-Time</label>
           <input
             type="radio"
             id="part-time"
             name="availability"
             value="part-time"
           />
-          <label>Part-Time</label>
+          <label for="part-time" class="radio-label">Part-Time</label>
         </fieldset>
-        <label for="message">Why do you want this job?</label>
-        <textarea id="message" rows="5" cols="30"></textarea>
+        <label for="message" class="label-view"
+          >Why do you want this job?</label
+        >
+        <textarea
+          id="message"
+          placeholder="Write your motivation"
+          rows="5"
+          required
+        ></textarea>
         <button type="submit">Submit Application</button>
       </form>
     </div>
