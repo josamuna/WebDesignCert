@@ -17,13 +17,18 @@ h1 {
 }
 
 input:not([type='radio']),
-select {
+select,
+textarea {
   display: block;
-  width: 100%;
+  width: calc(100% - 10px);
   padding: 10px 4px;
   font-size: 0.9rem;
   margin: 10px auto;
   border-radius: 5px;
+}
+
+select {
+  width: 100%;
 }
 
 fieldset {
@@ -38,14 +43,6 @@ fieldset {
   display: block;
   width: 100%;
   padding: 5px 0px;
-}
-
-textarea {
-  padding: 10px 4px;
-  font-size: 0.9rem;
-  margin: 10px auto;
-  width: 100%;
-  border-radius: 5px;
 }
 
 input:focus,
@@ -69,11 +66,6 @@ textarea:valid {
   font-size: 1rem;
 }
 
-.radio-btn::after {
-  transform: translate(3px, 3px) scale(1);
-  background-color: yellow;
-}
-
 .radio-group input[type='radio'] {
   appearance: none;
   width: 20px;
@@ -88,7 +80,7 @@ textarea:valid {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  transform: tranlate(3px, 3px) scale(0);
+  transform: translate(3px, 3px) scale(0);
   transition: all 0.1s ease-in;
 }
 

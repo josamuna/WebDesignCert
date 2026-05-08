@@ -23,6 +23,7 @@ Building a Job Application Form project.
           id="name"
           name="full-name"
           placeholder="Enter your name"
+          autocomplete="cc-given-name"
           required
         />
         <label for="email" class="label-view">Email:</label>
@@ -31,6 +32,7 @@ Building a Job Application Form project.
           id="email"
           name="email"
           placeholder="Enter your email"
+          autocomplete="email"
           required
         />
         <label for="position" class="label-view">Position:</label>
@@ -94,13 +96,18 @@ h1 {
 }
 
 input:not([type='radio']),
-select {
+select,
+textarea {
   display: block;
-  width: 100%;
+  width: calc(100% - 10px);
   padding: 10px 4px;
   font-size: 0.9rem;
   margin: 10px auto;
   border-radius: 5px;
+}
+
+select {
+  width: 100%;
 }
 
 fieldset {
@@ -115,14 +122,6 @@ fieldset {
   display: block;
   width: 100%;
   padding: 5px 0px;
-}
-
-textarea {
-  padding: 10px 4px;
-  font-size: 0.9rem;
-  margin: 10px auto;
-  width: 100%;
-  border-radius: 5px;
 }
 
 input:focus,
@@ -146,11 +145,6 @@ textarea:valid {
   font-size: 1rem;
 }
 
-.radio-btn::after {
-  transform: translate(3px, 3px) scale(1);
-  background-color: yellow;
-}
-
 .radio-group input[type='radio'] {
   appearance: none;
   width: 20px;
@@ -165,7 +159,7 @@ textarea:valid {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  transform: tranlate(3px, 3px) scale(0);
+  transform: translate(3px, 3px) scale(0);
   transition: all 0.1s ease-in;
 }
 
@@ -210,16 +204,16 @@ input:first-of-type {
 
 ### Initial State
 
-![Image](https://github.com/user-attachments/assets/eddcfade-01c8-4b01-af7b-7400c38a8a20)
+![Image](https://github.com/user-attachments/assets/ec781980-439a-4ea6-9218-609ce78173e7)
 
 ### State with submit button hover
 
-![Image](https://github.com/user-attachments/assets/a39f92d3-dcd9-4f63-9562-aaa1d60db7b5)
+![Image](https://github.com/user-attachments/assets/55189995-928f-49ba-9bd7-2f18eca721e1)
 
 ### State with invalid field
 
-![Image](https://github.com/user-attachments/assets/332bf897-469b-4a9f-903f-fb5021f1d3e4)
+![Image](https://github.com/user-attachments/assets/b7215e72-94ad-402c-86c1-bf963300d858)
 
 ### State with all valids fields
 
-![Image](https://github.com/user-attachments/assets/78952387-c9b0-4a82-b43e-22a58a26bbf3)
+![Image](https://github.com/user-attachments/assets/c554714f-fb68-48d9-8af6-951263230465)
