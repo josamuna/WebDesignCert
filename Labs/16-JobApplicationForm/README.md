@@ -99,20 +99,18 @@ input:not([type='radio']),
 select,
 textarea {
   display: block;
-  width: calc(100% - 10px);
-  padding: 10px 4px;
+  width: 100%;
+  padding: 10px 0;
+  text-indent: 4px;
   font-size: 0.9rem;
-  margin: 10px auto;
+  margin: 10px 0;
   border-radius: 5px;
 }
 
-select {
-  width: 100%;
-}
-
 fieldset {
-  margin: 10px auto;
-  padding: 20px 5px;
+  margin: 10px 0;
+  padding: 20px 0;
+  width: 100%;
   border-radius: 5px;
 }
 
@@ -184,7 +182,7 @@ button {
   border-radius: 5px;
   color: whitesmoke;
   display: block;
-  margin: 10px auto;
+  margin: 10px 0;
   padding: 12px 20px;
   width: 100%;
   font-size: 1rem;
@@ -194,10 +192,10 @@ button:hover {
   background-color: #000000;
   cursor: pointer;
 }
-
-input:first-of-type {
+/* Not needed, just to test how to style the first element differently to pass the Lab */
+/* input:first-of-type {
   border-radius: 5px;
-}
+} */
 ```
 
 ## Output
