@@ -54,6 +54,6 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 16. GreetingCard Project - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/16-GreetingCard)
 - [x] 17. ParentTeacherConferenceForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/17-ParentTeacherConferenceForm)
 - [x] 18. CSSColoredMarkers - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/18-CSSColoredMarkers)
-- [ ] 19. DesignRegistrationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/19-DesignRegistrationForm)
+- [x] 19. DesignRegistrationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/19-DesignRegistrationForm)
 
 > Learn more from [freeCodeCamp](https://www.freecodecamp.org/) for free and get your certificate.
