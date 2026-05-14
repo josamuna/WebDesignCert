@@ -18,7 +18,10 @@ h2 {
   background-color: white;
   border-radius: 0.8em;
   margin: 4em auto;
-  padding: 1.5em 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 2.9em;
   max-width: 400px;
   min-width: 300px;
   width: 60vw;
@@ -38,10 +41,11 @@ textarea {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0.8em;
-  padding: 0; /* Delete later*/
-  min-height: 3em;
+  padding: 0.4em 0.8em 0.4em;
+  min-height: 2.4em;
   border-radius: 0.4em;
   border: 1px solid #ccc;
+  font-size: 0.95rem;
 }
 
 button {
@@ -61,6 +65,5 @@ button {
 
 button:hover {
   background-color: #3e8f42;
+  cursor: pointer;
 }
-
-/* TOBE DELETED*/
