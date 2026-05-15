@@ -10,6 +10,7 @@ body {
 
 h1 {
   text-align: center;
+  margin-top: 50px;
 }
 
 .feature-card-container {
@@ -26,6 +27,7 @@ h1 {
   width: 44.5%;
   height: 15vh;
   padding: 10px;
+  margin-bottom: 3%;
 }
 
 .feature-card:hover {
@@ -44,6 +46,7 @@ h1 {
 .item-label {
   text-align: center;
   margin-top: 10px;
+  font-size: 0.87rem;
 }
 
 .feature-card:nth-child(odd) {
@@ -62,7 +65,7 @@ input[type='checkbox'] {
 
 input[type='checkbox']:checked {
   background-color: #ffb752;
-  border: 2px solid #ffbd33;
+  border-color: #ffbd33;
 }
 
 input[type='checkbox']::after {
