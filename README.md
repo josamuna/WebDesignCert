@@ -27,6 +27,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 16. JobApplicationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/16-JobApplicationForm)
 - [x] 17. SetColoredBoxes - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/17-SetColoredBoxes)
 - [x] 18. DesignContactForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/18-DesignContactForm)
+- [ ] 19. FeatureSelectionPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/19-FeatureSelectionPage)
 
 ## Workshop
 
