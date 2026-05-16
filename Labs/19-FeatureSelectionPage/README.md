@@ -1,4 +1,4 @@
-# 19-FeatureSelectionPage
+# FeatureSelectionPage
 
 Designing a Feature Selection Page Project.
 
