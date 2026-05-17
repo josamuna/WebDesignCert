@@ -61,6 +61,6 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 20. GameSettingsPanel - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/20-GameSettingsPanel)
 - [x] 21. DesignRothkoPainting - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/21-DesignRothkoPainting)
 - [x] 22. FlexboxPhotoGallery - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/22-FlexboxPhotoGallery)
-- [ ] 23. SetofColorfulBoxes - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/23-SetofColorfulBoxes)
+- [x] 23. SetofColorfulBoxes - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/23-SetofColorfulBoxes)
 
 > Learn more from [freeCodeCamp](https://www.freecodecamp.org/) for free and get your certificate.
