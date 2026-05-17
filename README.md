@@ -29,6 +29,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 18. DesignContactForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/18-DesignContactForm)
 - [x] 19. FeatureSelectionPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/19-FeatureSelectionPage)
 - [x] 20. ConfidentialEmailPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/20-ConfidentialEmailPage)
+- [ ] 21. PricingPlansLayoutPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/21-PricingPlansLayoutPage)
 
 ## Workshop
 
