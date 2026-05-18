@@ -67,7 +67,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 
 ### Certification HTML Part
 
-- [x] 1. SurveyForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/1-SurveyForm)
+- [x] 1. SurveyForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Certification/1-SurveyForm)
 
 ### Certification CSS Part
 
