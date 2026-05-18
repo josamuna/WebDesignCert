@@ -4,6 +4,7 @@
   border: 2px solid black;
   margin: 10px auto;
   padding: 20px;
+  gap: 20px;
 }
 
 h1,
@@ -11,13 +12,18 @@ h2 {
   text-align: center;
 }
 
+h2 {
+  margin-bottom: 10px;
+}
+
 .pricing {
   font-size: 1.3rem;
   text-align: center;
   color: #4e4c4c;
   font-weight: 700;
-  margin: 0 5px;
-  width: 250px;
+  margin: 0 30px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #6d6161;
 }
 
 .pricing-card {
@@ -26,19 +32,33 @@ h2 {
   justify-content: space-between;
   flex: 0 0 200px;
   border: 2px solid black;
+  width: 220px;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  transition: all 0.4s;
+  box-shadow: 2px 2px 2px 2px #6d6161;
+}
+
+.pricing-card:not(:hover) {
+  transition: all 0.4s;
 }
 
 .basic-plan {
   order: 0;
+  background-color: #f7f7f7;
 }
 
 .pro-plan {
   order: 1;
   flex-grow: 2;
+  background-color: #f0f8ff;
 }
 
 .premium-plan {
   order: 2;
+  background-color: #fdf2f2;
 }
 
 ul li {
@@ -66,7 +86,7 @@ a {
   align-items: center;
   background-color: #f1be32;
   width: 8em;
-  margin: 0 auto 20px;
+  margin: 20px auto 20px;
   text-align: center;
   padding: 10px 20px;
   color: black;
