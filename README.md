@@ -12,24 +12,23 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 4. VideoPlayer - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/4-VideoCompilationPage)
 - [x] 5. EventHub - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/5-EventHub)
 - [x] 6. BookCatalogTable - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/6-BookCatalogTable)
-- [x] 7. SurveyForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/7-SurveyForm)
-- [x] 8. DebugDonationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/8-DebugDonationForm)
-- [x] 9. CheckoutPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/9-CheckoutPage)
-- [x] 10. MovieReviewPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/10-MovieReviewPage)
-- [x] 11. MultimediaPlayer - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/11-MultimediaPlayer)
+- [x] 7. DebugDonationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/7-DebugDonationForm)
+- [x] 8. CheckoutPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/8-CheckoutPage)
+- [x] 9. MovieReviewPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/9-MovieReviewPage)
+- [x] 10. MultimediaPlayer - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/10-MultimediaPlayer)
 
 ### Labs CSS Part
 
-- [x] 12. DesignBusinessCard - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/12-DesignBusinessCard)
-- [x] 13. StylizingTodoList - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/13-StylizingTodoList)
-- [x] 14. BlogPostCard - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/14-BlogPostCard)
-- [x] 15. EventFlyerPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/15-EventFlyerPage)
-- [x] 16. JobApplicationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/16-JobApplicationForm)
-- [x] 17. SetColoredBoxes - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/17-SetColoredBoxes)
-- [x] 18. DesignContactForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/18-DesignContactForm)
-- [x] 19. FeatureSelectionPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/19-FeatureSelectionPage)
-- [x] 20. ConfidentialEmailPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/20-ConfidentialEmailPage)
-- [x] 21. PricingPlansLayoutPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/21-PricingPlansLayoutPage)
+- [x] 11. DesignBusinessCard - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/11-DesignBusinessCard)
+- [x] 12. StylizingTodoList - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/12-StylizingTodoList)
+- [x] 13. BlogPostCard - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/13-BlogPostCard)
+- [x] 14. EventFlyerPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/14-EventFlyerPage)
+- [x] 15. JobApplicationForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/15-JobApplicationForm)
+- [x] 16. SetColoredBoxes - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/16-SetColoredBoxes)
+- [x] 17. DesignContactForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/17-DesignContactForm)
+- [x] 18. FeatureSelectionPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/18-FeatureSelectionPage)
+- [x] 19. ConfidentialEmailPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/19-ConfidentialEmailPage)
+- [x] 20. PricingPlansLayoutPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/20-PricingPlansLayoutPage)
 
 ## Workshop
 
@@ -63,5 +62,13 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 21. DesignRothkoPainting - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/21-DesignRothkoPainting)
 - [x] 22. FlexboxPhotoGallery - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/22-FlexboxPhotoGallery)
 - [x] 23. SetofColorfulBoxes - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/23-SetofColorfulBoxes)
+
+## Certification Project
+
+### Certification HTML Part
+
+- [x] 1. SurveyForm - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/1-SurveyForm)
+
+### Certification CSS Part
 
 > Learn more from [freeCodeCamp](https://www.freecodecamp.org/) for free and get your certificate.
