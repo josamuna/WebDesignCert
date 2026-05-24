@@ -30,6 +30,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 19. ConfidentialEmailPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/19-ConfidentialEmailPage)
 - [x] 20. PricingPlansLayoutPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/20-PricingPlansLayoutPage)
 - [x] 21. NewspaperArticle - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/21-NewspaperArticle)
+- [x] 22. TributePage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/22-TributePage)
 
 ## Workshop
 
