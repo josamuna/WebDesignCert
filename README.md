@@ -64,6 +64,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 22. FlexboxPhotoGallery - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/22-FlexboxPhotoGallery)
 - [x] 23. SetofColorfulBoxes - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/23-SetofColorfulBoxes)
 - [x] 24. NutritionalLabel - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/24-NutritionalLabel)
+- [ ] 25. QuizWebpage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/25-QuizWebpage)
 
 ## Certification Projects
 
