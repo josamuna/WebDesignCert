@@ -6,7 +6,40 @@ body {
 main {
   background-color: #eee;
   margin: 20px auto;
-  padding: 10px;
+  padding: 15px;
+}
+
+.hihlight {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 20px 5px;
+}
+
+cite {
+  line-height: 2;
+}
+
+blockquote {
+  line-height: 2;
+  margin: 40px 100px 40px 100px;
+  font-style: italic;
+}
+
+#img-div {
+  background-color: white;
+  padding: 20px 10px;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 10px 5px 0;
+  line-height: 1.3;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px auto;
 }
 
 #title {
@@ -14,9 +47,23 @@ main {
   font-size: 2.5rem;
 }
 
+#main > p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 #image {
   display: block;
   height: auto;
   max-width: 100%;
   margin: 10px auto;
+}
+
+#tribute-info li {
+  line-height: 2;
+  margin: 10px 100px 10px 100px;
+}
+
+#tribute-link:link {
+  color: #477ca7;
 }

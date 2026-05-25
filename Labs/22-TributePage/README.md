@@ -19,7 +19,7 @@ Building a Tribute Page Project.
       <h1 id="title">Dr. Norman Borlaug</h1>
 
       <p>The man who saved a billion lives</p>
-      <div id="img-div">
+      <figure id="img-div">
         <img
           src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg"
           alt="Dr. Norman Borlaug"
@@ -29,8 +29,9 @@ Building a Tribute Page Project.
           Dr. Norman Borlaug, third from the left, trains biologists in Mexico
           on how to increase wheat yields - part of his life-long war on hunger.
         </figcaption>
-      </div>
+      </figure>
       <div id="tribute-info">
+        <p class="hihlight">Here's a time line of Dr. Borlaug's life:</p>
         <ul>
           <li><strong>1914</strong> &dash; Born in Cresco, Iowa.</li>
           <li>
@@ -105,15 +106,19 @@ Building a Tribute Page Project.
           </li>
           <li><strong>2009</strong> &dash; dies at the age of 95.</li>
         </ul>
-        <cite>
-          "Borlaug's life and achievement are testimony to the far-reaching
-          contribution that one man's towering intellect, persistence and
-          scientific vision can make to human peace and progress." &dash; Indian
-          Prime Minister Manmohan Singh.
-        </cite>
+        <blockquote
+          cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm"
+        >
+          <p>
+            "Borlaug's life and achievement are testimony to the far-reaching
+            contribution that one man's towering intellect, persistence and
+            scientific vision can make to human peace and progress."
+          </p>
+          <cite>-- Indian Prime Minister Manmohan Singh</cite>
+        </blockquote>
       </div>
       <div>
-        <p>
+        <h3>
           If you have time, you should read more about this incredible human
           being on his
           <a
@@ -122,7 +127,7 @@ Building a Tribute Page Project.
             target="_blank"
             >Wikipedia entry</a
           >.
-        </p>
+        </h3>
       </div>
     </main>
   </body>
@@ -130,9 +135,83 @@ Building a Tribute Page Project.
 ```
 
 ```css
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
 
+main {
+  background-color: #eee;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+.hihlight {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 20px 5px;
+}
+
+cite {
+  line-height: 2;
+}
+
+blockquote {
+  line-height: 2;
+  margin: 40px 100px 40px 100px;
+  font-style: italic;
+}
+
+#img-div {
+  background-color: white;
+  padding: 20px 10px;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 10px 5px 0;
+  line-height: 1.3;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#title {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#main > p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+#tribute-info li {
+  line-height: 2;
+  margin: 10px 100px 10px 100px;
+}
+
+#tribute-link:link {
+  color: #477ca7;
+}
 ```
 
 ## Output
 
-![Image]()
+### Small View
+
+![Image](https://github.com/user-attachments/assets/5aed9d67-bf5b-45c8-a031-5b5c3a80736d)
+
+### Big View
+
+![Image](https://github.com/user-attachments/assets/0f2a171d-1b74-4a8b-8842-5949b7e04208)
