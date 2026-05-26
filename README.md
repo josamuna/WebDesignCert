@@ -66,7 +66,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 23. SetofColorfulBoxes - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/23-SetofColorfulBoxes)
 - [x] 24. NutritionalLabel - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/24-NutritionalLabel)
 - [x] 25. QuizWebpage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/25-QuizWebpage)
-- [ ] 26. CatPainting - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/26-CatPainting)
+- [x] 26. CatPainting - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/26-CatPainting)
 
 ## Certification Projects
 
