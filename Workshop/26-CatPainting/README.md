@@ -1,6 +1,6 @@
 # CatPainting
 
-Designing a CatP ainting Project.
+Designing a Cat Painting Project.
 
 ## Source Code
 
