@@ -123,8 +123,31 @@ Building a Book Inventory App Project.
 ```
 
 ```css
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+td {
+  text-align: center;
+  vertical-align: center;
+  padding: 4px 20px;
+}
+
+thead tr {
+  background-image: linear-gradient(to top, #80d7fa, #b2e9ff, #dff6ff);
+  height: 35px;
+}
+
 tr[class="read"] {
-  /*background-image: (to top, #59d659, #7ce57c, #b1efb1);*/
   background-image: linear-gradient(to top, #9fff9f, #d1ffd1, #edfded);
 }
 
@@ -143,34 +166,34 @@ span {
 tr[class="read"] span[class="status"] {
   background-image: linear-gradient(to top, #59d659, #7ce57c, #b1efb1);
   border: 1px solid #31d131;
-  border-radius: 35%;
+  border-radius: 50px 50px 50px 50px;
 }
 
 tr[class="to-read"] span[class="status"] {
   background-image: linear-gradient(to top, #ff2815, #fe695d, #ff968e);
   border: 1px solid #f64838;
-  border-radius: 35%;
+  border-radius: 50px 50px 50px 50px;
 }
 
 tr[class="in-progress"] span[class="status"] {
   background-image: linear-gradient(to top, #f4b12d, #fcd07a, #fcebc9);
   border: 1px solid #ffbf41;
-  border-radius: 35%;
+  border-radius: 50px 50px 50px 50px;
 }
 
 span[class="status"],
 span[class^="rate"] {
   width: 90px;
   height: 20px;
-  padding: 3px 6px;
+  padding: 5px 15px;
 }
 
 span[class^="rate"] > span {
   border: 1px solid #a19f9a;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  margin: 5px 2px;
+  width: 18px;
+  height: 18px;
+  margin: 5px 0;
   background-color: #fcfcf8;
 }
 
@@ -189,4 +212,4 @@ span[class~="three"] span {
 
 ## Output
 
-![Image]()
+![Image](https://github.com/user-attachments/assets/52dd86d0-ae76-41fa-b81d-dc877b95e093)

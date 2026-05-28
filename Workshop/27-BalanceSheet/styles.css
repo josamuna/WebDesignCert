@@ -1,4 +1,4 @@
-span[class~='sr-only'] {
+span[class~="sr-only"] {
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
   clip-path: inset(50%) !important;
@@ -93,12 +93,12 @@ tbody th {
   width: calc(100% - 12rem);
 }
 
-tr[class='total'] {
+tr[class="total"] {
   border-bottom: 4px double #0a0a23;
   font-weight: bold;
 }
 
-tr[class='total'] th {
+tr[class="total"] th {
   text-align: left;
   padding: 0.5rem 0 0.25rem 0.5rem;
 }
