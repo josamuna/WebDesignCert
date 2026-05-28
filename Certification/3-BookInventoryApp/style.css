@@ -1,11 +1,13 @@
-.read {
+tr[class="read"] {
+  /*background-image: (to top, #59d659, #7ce57c, #b1efb1);*/
   background-image: linear-gradient(to top, #9fff9f, #d1ffd1, #edfded);
 }
-.to-read {
+
+tr[class="to-read"] {
   background-image: linear-gradient(to top, #d7e4d7, #e2e7e2, #fafafa);
 }
 
-.in-progress {
+tr[class="in-progress"] {
   background-image: linear-gradient(to top, #ffdf9f, #ffeecc, #f0f0f0);
 }
 
@@ -13,15 +15,15 @@ span {
   display: inline-block;
 }
 
-tr[class="to-read"] span[class="status"] {
-  background-image: linear-gradient(to top, #ff2815, #fe695d, #ff968e);
-  border: 1px solid #f64838;
-  border-radius: 35%;
-}
-
 tr[class="read"] span[class="status"] {
   background-image: linear-gradient(to top, #59d659, #7ce57c, #b1efb1);
   border: 1px solid #31d131;
+  border-radius: 35%;
+}
+
+tr[class="to-read"] span[class="status"] {
+  background-image: linear-gradient(to top, #ff2815, #fe695d, #ff968e);
+  border: 1px solid #f64838;
   border-radius: 35%;
 }
 
@@ -32,13 +34,13 @@ tr[class="in-progress"] span[class="status"] {
 }
 
 span[class="status"],
-span[class="rate"] {
+span[class^="rate"] {
   width: 90px;
   height: 20px;
   padding: 3px 6px;
 }
 
-span[class^="rate"] span {
+span[class^="rate"] > span {
   border: 1px solid #a19f9a;
   border-radius: 50%;
   width: 20px;
