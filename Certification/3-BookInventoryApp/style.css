@@ -46,6 +46,17 @@ span[class^='rate'] span {
   background-color: #fcfcf8;
 }
 
-span[class~='one']:first-of-type {
+span[class~='one'] span:first-of-type {
+  background-image: linear-gradient(#ffdf3c);
+}
+
+span[class~='two'] span:nth-of-type(1),
+span[class~='two'] span:nth-of-type(2) {
+  background-image: linear-gradient(#ffdf3c);
+}
+
+span[class~='three'] span:nth-of-type(1),
+span[class~='three'] span:nth-of-type(2),
+span[class~='three'] span:nth-of-type(3) {
   background-image: linear-gradient(#ffdf3c);
 }
