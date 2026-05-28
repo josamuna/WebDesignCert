@@ -13,32 +13,32 @@ span {
   display: inline-block;
 }
 
-tr[class='to-read'] span[class='status'] {
+tr[class="to-read"] span[class="status"] {
   background-image: linear-gradient(to top, #ff2815, #fe695d, #ff968e);
   border: 1px solid #f64838;
   border-radius: 35%;
 }
 
-tr[class='read'] span[class='status'] {
+tr[class="read"] span[class="status"] {
   background-image: linear-gradient(to top, #59d659, #7ce57c, #b1efb1);
   border: 1px solid #31d131;
   border-radius: 35%;
 }
 
-tr[class='in-progress'] span[class='status'] {
+tr[class="in-progress"] span[class="status"] {
   background-image: linear-gradient(to top, #f4b12d, #fcd07a, #fcebc9);
   border: 1px solid #ffbf41;
   border-radius: 35%;
 }
 
-span[class='status'],
-span[class='rate'] {
+span[class="status"],
+span[class="rate"] {
   width: 90px;
   height: 20px;
   padding: 3px 6px;
 }
 
-span[class^='rate'] span {
+span[class^="rate"] span {
   border: 1px solid #a19f9a;
   border-radius: 50%;
   width: 20px;
@@ -46,14 +46,14 @@ span[class^='rate'] span {
   background-color: #fcfcf8;
 }
 
-span[class~='one'] span:first-of-type {
+span[class~="one"] span:first-of-type {
   background-image: linear-gradient(#ffdf3c);
 }
 
-span[class~='two'] span:nth-of-type(-n + 2) {
+span[class~="two"] span:nth-of-type(-n + 2) {
   background-image: linear-gradient(#ffdf3c);
 }
 
-span[class~='three'] span:nth-of-type(-n + 3) {
+span[class~="three"] span:nth-of-type(-n + 3) {
   background-image: linear-gradient(#ffdf3c);
 }
