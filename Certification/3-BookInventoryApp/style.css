@@ -15,4 +15,37 @@ span {
 
 tr[class='to-read'] span[class='status'] {
   background-image: linear-gradient(to top, #ff2815, #fe695d, #ff968e);
+  border: 1px solid #f64838;
+  border-radius: 35%;
+}
+
+tr[class='read'] span[class='status'] {
+  background-image: linear-gradient(to top, #59d659, #7ce57c, #b1efb1);
+  border: 1px solid #31d131;
+  border-radius: 35%;
+}
+
+tr[class='in-progress'] span[class='status'] {
+  background-image: linear-gradient(to top, #f4b12d, #fcd07a, #fcebc9);
+  border: 1px solid #ffbf41;
+  border-radius: 35%;
+}
+
+span[class='status'],
+span[class='rate'] {
+  width: 90px;
+  height: 20px;
+  padding: 3px 6px;
+}
+
+span[class^='rate'] span {
+  border: 1px solid #a19f9a;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #fcfcf8;
+}
+
+span[class~='one']:first-of-type {
+  background-image: linear-gradient(#ffdf3c);
 }
