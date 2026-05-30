@@ -59,4 +59,8 @@ html {
   .keys {
     width: 318px;
   }
+
+  .logo {
+    width: 150px;
+  }
 }
