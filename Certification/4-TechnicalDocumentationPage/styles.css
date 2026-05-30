@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #444;
+}
+
+header {
+  font-size: 1.8rem;
+}
+
+p {
+  text-align: left;
+}
