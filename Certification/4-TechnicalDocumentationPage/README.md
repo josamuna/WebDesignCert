@@ -136,12 +136,10 @@ Building a Technical Documentation Page Project.
       </section>
       <section id="Hello_world" class="main-section">
         <header>Hello world</header>
-        <pre>
-            <code>
-            function greetMe(yourName) { alert("Hello " + yourName); }
-            greetMe("World");
-            </code>
-          </pre>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
         <p>
           Select the code in the pad and hit Ctrl+R to watch it unfold in your
           browser!
@@ -171,25 +169,18 @@ Building a Technical Documentation Page Project.
         <header>Declaring variables</header>
         <p>You can declare a variable in three ways:</p>
         <p>With the keyword var. For example,</p>
-        <pre>
-          <code>var x = 42</code>.
-        </pre>
+        <code>var x = 42.</code>
         <p>
           This syntax can be used to declare both local and global variables. By
           simply assigning it a value. For example,
         </p>
-        <pre>
-          <code>x = 42</code>.
-        </pre>
+        <code>x = 42.</code>
         <p>
           This always declares a global variable. It generates a strict
           JavaScript warning. You shouldn't use this variant. With the keyword
           let. For example,
         </p>
-
-        <pre>
-          <code>let y = 13</code>.
-        </pre>
+        <code>let y = 13.</code>
         <p>
           This syntax can be used to declare a block scope local variable. See
           Variable scope below.
@@ -212,20 +203,15 @@ Building a Technical Documentation Page Project.
           global context) within which x is declared, not the block, which in
           this case is an if statement.
         </p>
-        <pre>
-          <code>
-            if (true) { var x = 5; } console.log(x); // 5
-          </code>
-        </pre>
+        <code> if (true) { var x = 5; } console.log(x); // 5 </code>
         <p>
           This behavior changes, when using the let declaration introduced in
           ECMAScript 2015.
         </p>
-        <pre>
-          <code>
-            if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined
-          </code>
-        </pre>
+        <code>
+          if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
+          defined
+        </code>
       </section>
       <section id="Global_variables" class="main-section">
         <header>Global variables</header>
@@ -250,12 +236,7 @@ Building a Technical Documentation Page Project.
           identifier: it must start with a letter, underscore or dollar sign and
           can contain alphabetic, numeric, or underscore characters.
         </p>
-        <pre>
-          <code>
-            const PI = 3.14;
-          </code>
-        </pre>
-
+        <code> const PI = 3.14; </code>
         <p>
           A constant cannot change value through assignment or be re-declared
           while the script is running. It has to be initialized to a value.
@@ -269,24 +250,17 @@ Building a Technical Documentation Page Project.
           You cannot declare a constant with the same name as a function or
           variable in the same scope. For example:
         </p>
-        <pre>
-          <code>
-            // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; 
-            // THIS WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; 
-            //statements }
-          </code>
-        </pre>
-
+        <code>
+          // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
+          CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements }
+        </code>
         <p>
           However, object attributes are not protected, so the following
           statement is executed without problems.
         </p>
-        <pre>
-          <code>
-            const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-        "otherValue";
-          </code>
-      </pre>
+        <code>
+          const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
+        </code>
       </section>
       <section id="Data_types" class="main-section">
         <header>Data types</header>
@@ -325,11 +299,7 @@ Building a Technical Documentation Page Project.
           true. Use the optional else clause to execute a statement if the
           condition is false. An if statement looks as follows:
         </p>
-        <pre>
-          <code>
-            if (condition) { statement_1; } else { statement_2; }
-          </code>
-        </pre>
+        <code> if (condition) { statement_1; } else { statement_2; } </code>
         <p>
           condition can be any expression that evaluates to true or false. See
           Boolean for an explanation of what evaluates to true and false. If
@@ -341,13 +311,10 @@ Building a Technical Documentation Page Project.
           You may also compound the statements using else if to have multiple
           conditions tested in sequence, as follows:
         </p>
-        <pre>
-          <code>
-            if (condition_1) { statement_1; } else if (condition_2) {
-statement_2; } else if (condition_n) { statement_n; } else {
-statement_last; }
-          </code>
-        </pre>
+        <code>
+          if (condition_1) { statement_1; } else if (condition_2) { statement_2;
+          } else if (condition_n) { statement_n; } else { statement_last; }
+        </code>
         <p>
           In the case of multiple conditions only the first logical condition
           which evaluates to true will be executed. To execute multiple
@@ -355,34 +322,24 @@ statement_last; }
           general, it's good practice to always use block statements, especially
           when nesting if statements:
         </p>
-        <pre>
-          <code>
-            if (condition) { statement_1_runs_if_condition_is_true;
-statement_2_runs_if_condition_is_true; } else {
-statement_3_runs_if_condition_is_false;
-statement_4_runs_if_condition_is_false; }
-          </code>
-        </pre>
+        <code>
+          if (condition) { statement_1_runs_if_condition_is_true;
+          statement_2_runs_if_condition_is_true; } else {
+          statement_3_runs_if_condition_is_false;
+          statement_4_runs_if_condition_is_false; }
+        </code>
         <p>
           It is advisable to not use simple assignments in a conditional
           expression, because the assignment can be confused with equality when
           glancing over the code. For example, do not use the following code:
         </p>
-        <pre>
-          <code>
-            if (x = y) { /* statements here */ }
-          </code>
-        </pre>
+        <code> if (x = y) { /* statements here */ } </code>
         <p>
           If you need to use an assignment in a conditional expression, a common
           practice is to put additional parentheses around the assignment. For
           example:
         </p>
-        <pre>
-          <code>
-            if ((x = y)) { /* statements here */ }
-          </code>
-        </pre>
+        <code> if ((x = y)) { /* statements here */ } </code>
       </section>
       <section id="while_statement" class="main-section">
         <header>while statement</header>
@@ -390,11 +347,7 @@ statement_4_runs_if_condition_is_false; }
           A while statement executes its statements as long as a specified
           condition evaluates to true. A while statement looks as follows:
         </p>
-        <pre>
-          <code>
-            while (condition) statement
-          </code>
-        </pre>
+        <code> while (condition) statement </code>
         <p>
           If the condition becomes false, statement within the loop stops
           executing and control passes to the statement following the loop.
@@ -413,11 +366,7 @@ statement_4_runs_if_condition_is_false; }
         <p>
           The following while loop iterates as long as n is less than three:
         </p>
-        <pre>
-          <code>
-            var n = 0; var x = 0; while (n < 3) { n++; x += n; }
-          </code>
-        </pre>
+        <code> var n = 0; var x = 0; while (n < 3) { n++; x += n; } </code>
         <p>
           With each iteration, the loop increments n and adds that value to x.
           Therefore, x and n take on the following values:
@@ -453,22 +402,14 @@ statement_4_runs_if_condition_is_false; }
           For example, the following code defines a simple function named
           square:
         </p>
-        <pre>
-          <code>
-            function square(number) { return number * number; }
-          </code>
-        </pre>
+        <code> function square(number) { return number * number; } </code>
         <p>
           The function square takes one argument, called number. The function
           consists of one statement that says to return the argument of the
           function (that is, number) multiplied by itself. The return statement
           specifies the value returned by the function.
         </p>
-        <pre>
-          <code>
-            return number * number;
-          </code>
-        </pre>
+        <code> return number * number; </code>
         <p>
           Primitive parameters (such as a number) are passed to functions by
           value; the value is passed to the function, but if the function
@@ -502,14 +443,89 @@ statement_4_runs_if_condition_is_false; }
 body {
   font-family: Arial, sans-serif;
   color: #444;
+  line-height: 1.7;
 }
 
-header {
+#navbar header {
   font-size: 1.8rem;
+  text-align: center;
+  margin-left: 10px;
+  color: #333;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 300px;
+  padding: 10px;
+  margin-bottom: 110px;
+}
+
+section header {
+  text-align: left;
+  font-size: 1.8rem;
+  margin-left: -0.8rem;
+  color: #333;
+}
+
+#navbar {
+  top: 0px;
+  left: 0px;
+  color: #4d4e53;
+  border-right: 4px solid #666;
+  position: fixed;
+  min-width: 280px;
+  height: 100vh;
+  padding: 10px 0;
+  overflow-y: scroll;
+  unicode-bidi: isolate;
+}
+
+#navbar li {
+  display: block;
+  border-top: 1px solid #222;
+  width: 100%;
+}
+
+#navbar li:last-of-type {
+  border-bottom: 1px solid #222;
+}
+
+#navbar a {
+  display: block;
+  text-decoration: none;
+  color: #444;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#navbar ul {
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#navbar li:hover {
+  background-color: #c7c7c7;
+  transform: scale(1.1);
+  border-bottom: 1px solid #222;
+}
+
+#navbar a:hover {
+  color: #000;
 }
 
 p {
   text-align: left;
+}
+
+code {
+  display: block;
+  background-color: #f2f1f1;
+  padding: 15px 25px;
+  margin: 5px;
+  border-radius: 5px;
+  line-height: 2;
+  border: 1px solid #c7c7c7;
 }
 
 @media screen and (min-width: 1025px) {
@@ -517,8 +533,21 @@ p {
     position: fixed;
   }
 }
+
+/* Adding a smooth behavior on scrolling link */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
 ```
 
 ## Output
 
-![Image]()
+### Larger Device
+
+![Image](https://github.com/user-attachments/assets/f918033c-42c7-4890-8a9c-0aeea41100c4")
+
+### Small Device
+
+![Image](https://github.com/user-attachments/assets/ff2c5504-d311-4be8-a5ab-5397285de77c)
