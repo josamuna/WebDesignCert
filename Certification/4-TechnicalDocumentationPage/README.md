@@ -546,7 +546,7 @@ code {
 
 ### Larger Device
 
-![Image](https://github.com/user-attachments/assets/f918033c-42c7-4890-8a9c-0aeea41100c4")
+![Image](https://github.com/user-attachments/assets/f918033c-42c7-4890-8a9c-0aeea41100c4)
 
 ### Small Device
 
