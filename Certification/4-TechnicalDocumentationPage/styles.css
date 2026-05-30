@@ -20,3 +20,10 @@ p {
     position: fixed;
   }
 }
+
+/* Adding a smooth behavior on scrolling link */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
