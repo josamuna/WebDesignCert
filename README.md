@@ -70,6 +70,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 26. CatPainting - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/26-CatPainting)
 - [x] 27. BalanceSheet - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/27-BalanceSheet)
 - [x] 28. DesignPiano - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/28-DesignPiano)
+- [ ] 29. CitySkyline - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/29-CitySkyline)
 
 ## Certification Projects
 
