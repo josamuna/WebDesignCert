@@ -10,7 +10,6 @@
 }
 
 * {
-  border: 1px solid black;
   box-sizing: border-box;
 }
 
@@ -266,10 +265,10 @@ body {
       var(--window-color2) 44%
     );
 }
+
 .fb6 {
   width: 9%;
   height: 38%;
-  background-color: var(--building-color3);
   background:
     repeating-linear-gradient(
       90deg,
