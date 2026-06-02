@@ -1,0 +1,10 @@
+:root {
+  --color0: #fff;
+  --color1: #cdfecd;
+  --color2: #9bfc9b;
+  --color3: #51fb51;
+  --color4: #05c705;
+  --color5: #037c03;
+  --solid-border: 1px solid #000;
+  --dashed-border: 1px dashed #000;
+}
