@@ -8,3 +8,15 @@
   --solid-border: 1px solid #000;
   --dashed-border: 1px dashed #000;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+.sharp {
+  border-bottom: var(--solid-border);
+}
+
+.half {
+  border-bottom: var(--dashed-border);
+}
