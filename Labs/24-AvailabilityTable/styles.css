@@ -67,13 +67,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 10px;
-  margin: 4em 1em;
+  margin: 4rem 1rem;
+}
+
+/* 
+Make items inside the first flex 
+aligns in on column become inligned
+*/
+#legend-line {
+  display: flex;
+  align-items: center;
+}
+
+#legend-line span {
+  width: 2rem;
+  text-align: center;
 }
 
 #legend-gradient {
-  width: 12em;
-  height: 1.8em;
+  width: 10rem;
+  height: 1.6rem;
   border: 1px solid #000;
   background-image: linear-gradient(
     90deg,
@@ -84,4 +97,9 @@ body {
     var(--color4) 66% 82%,
     var(--color5) 82% 100%
   );
+}
+
+.legend-availability {
+  padding: 5px;
+  font-size: 1.2rem;
 }
