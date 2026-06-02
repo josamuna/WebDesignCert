@@ -48,3 +48,32 @@
 .available-5 {
   background-color: var(--color5);
 }
+
+#legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  margin: 4em 1em;
+}
+
+#legend-gradient {
+  width: 40%;
+  height: 25px;
+  border: 1px solid #000;
+  background-image: linear-gradient(
+    to right,
+    var(--color0),
+    var(--color0) 12%,
+    var(--color1) 10%,
+    var(--color1) 25%,
+    var(--color2) 25%,
+    var(--color2) 36%,
+    var(--color3) 48%,
+    var(--color3) 65%,
+    var(--color4) 65%,
+    var(--color4) 82%,
+    var(--color5) 82%,
+    var(--color5) 100%
+  );
+}
