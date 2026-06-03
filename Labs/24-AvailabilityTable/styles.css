@@ -11,10 +11,13 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Arial, sans-serif;
+  background-color: #acd2bf;
 }
 
 #container {
@@ -67,7 +70,28 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 1rem;
+  margin: 4rem 1rem 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 42rem;
+  margin-top: 5rem;
+  /*table-layout: fixed;*/
+}
+
+th {
+  font-size: 1.12rem;
+}
+
+th,
+tr {
+  height: 1.5rem;
+}
+
+td:not(:first-child) {
+  border-left: var(--solid-border);
+  border-right: var(--solid-border);
 }
 
 /* 

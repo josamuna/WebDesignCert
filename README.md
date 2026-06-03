@@ -32,7 +32,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 21. NewspaperArticle - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/21-NewspaperArticle)
 - [x] 22. TributePage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/22-TributePage)
 - [x] 23. HousePainting - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/23-HousePainting)
-- [ ] 24. AvailabilityTable - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/24-AvailabilityTable)
+- [x] 24. AvailabilityTable - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/24-AvailabilityTable)
 
 ## Workshop
 
