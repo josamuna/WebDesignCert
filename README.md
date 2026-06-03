@@ -72,6 +72,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 27. BalanceSheet - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/27-BalanceSheet)
 - [x] 28. DesignPiano - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/28-DesignPiano)
 - [x] 29. CitySkyline - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/29-CitySkyline)
+- [ ] 30. Magazine - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/30-Magazine)
 
 ## Certification Projects
 
