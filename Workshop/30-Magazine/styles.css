@@ -41,3 +41,11 @@ main {
     );
   row-gap: 3rem;
 }
+
+.heading {
+  grid-column: 2 / 3;
+}
+
+.text {
+  grid-column: 2 / 3;
+}
