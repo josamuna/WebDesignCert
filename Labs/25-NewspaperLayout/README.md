@@ -82,6 +82,22 @@ Building and Designing a 25-Newspaper Layout Project.
 ```
 
 ```css
+:root {
+  --background-color1: #f9f9f9;
+  --background-color2: #e9e9e9;
+  --background-color3: #dddddd;
+  --background-color4: #1b1b32;
+  --normal-article-line-height: 1.3;
+  --small-article-line-height: 1.3;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.1rem;
+  --h3-font-size: 0.925rem;
+  --h1-padding: 2rem 1rem;
+  --h2-padding: 0.1rem 0rem 1rem;
+  --h3-padding: 0.1rem 0rem 1rem;
+  --small-border-radius: 0.5rem;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -101,11 +117,46 @@ body {
     "small-article1 small-article2 small-article3";
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto 1fr 1fr 1fr;
-  gap: 1.8rem 1.2rem;
+  gap: 1.1rem 1.1rem;
+  margin: 1.4rem;
+}
+
+h2,
+h3 {
+  color: var(--background-color4, #1b1b32);
+}
+
+h2 {
+  padding: var(--h2-padding, 0.1rem 0rem 1rem);
+}
+
+h3 {
+  padding: var(--h3-padding, 0.1rem 0rem 1rem);
 }
 
 .title {
   grid-area: title;
+  background-color: var(--background-color4, #1b1b32);
+  color: white;
+  text-align: center;
+  padding: var(--h1-padding, 2rem 1rem);
+  font-size: var(--h1-font-size, 1.5rem);
+}
+
+.feature-article,
+.secondary-article {
+  background-color: var(--background-color1);
+  line-height: var(--normal-article-line-height, 1.3);
+}
+
+.feature-article,
+.secondary-article,
+.small-article1,
+.small-article2,
+.small-article3 {
+  border-radius: var(--small-border-radius, 0.5rem);
+  padding: 2rem 1rem;
+  text-align: justify;
 }
 
 .feature-article {
@@ -114,10 +165,21 @@ body {
 
 .cover-image {
   grid-area: cover-image;
+  background-color: var(--background3, #dddddd);
+  padding: 5rem 0.925rem 5rem;
+  border-radius: var(--background3, #dddddd);
 }
 
 .secondary-article {
   grid-area: secondary-article;
+}
+
+.small-article1,
+.small-article2,
+.small-article3 {
+  background-color: var(--background-color2, #e9e9e9);
+  font-size: 0.9rem;
+  line-height: var(--small-article-line-height, 1);
 }
 
 .small-article1 {
@@ -134,9 +196,10 @@ body {
 
 .cover-image img {
   max-width: 100%;
+  border-radius: var(--small-border-radius, 0.5rem);
 }
 ```
 
 ## Output
 
-![Image]()
+![Image](https://github.com/user-attachments/assets/69e234ca-ccf3-4312-9ba5-361079b78a4f)
