@@ -47,3 +47,7 @@ body {
 .small-article3 {
   grid-area: small-article3;
 }
+
+.cover-image img {
+  max-width: 100%;
+}
