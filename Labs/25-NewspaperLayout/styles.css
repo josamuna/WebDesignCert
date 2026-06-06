@@ -30,5 +30,20 @@ body {
 
 .cover-image {
   grid-area: cover-image;
-  max-width: 100%;
+}
+
+.secondary-article {
+  grid-area: secondary-article;
+}
+
+.small-article1 {
+  grid-area: small-article1;
+}
+
+.small-article2 {
+  grid-area: small-article2;
+}
+
+.small-article3 {
+  grid-area: small-article3;
 }
