@@ -23,3 +23,12 @@ body {
 .title {
   grid-area: title;
 }
+
+.feature-article {
+  grid-area: feature-article;
+}
+
+.cover-image {
+  grid-area: cover-image;
+  max-width: 100%;
+}
