@@ -7,3 +7,18 @@
 body {
   font-family: Georgia, serif;
 }
+
+.newspaper-layout {
+  display: grid;
+  grid-template-areas:
+    "title title title"
+    "feature-article feature-article cover-image"
+    "secondary-article secondary-article secondary-article";
+  gap: 1.8rem 1.2rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr 1fr 1fr;
+}
+
+.cover-image {
+  max-width: 100%;
+}
