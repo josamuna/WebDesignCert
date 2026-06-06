@@ -1,3 +1,14 @@
+:root {
+  --normal-article-background: #f9f9f9;
+  --small-article-background: #e9e9e9;
+  --normal-article-line-height: 1.3;
+  --small-article-line-height: 1.3;
+  --main-title-font-size: 1.5rem;
+
+  --main-title-bg-color: #1b1b32;
+  --small-border-radius: 0.5rem;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -17,22 +28,33 @@ body {
     "small-article1 small-article2 small-article3";
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto 1fr 1fr 1fr;
-  gap: 1.8rem 1.2rem;
+  gap: 1.2rem 1.2rem;
   margin: 1.4rem;
 }
 
 .title {
   grid-area: title;
-  background-color: #1b1b32;
+  background-color: var(--main-title-bg-color, #1b1b32);
   color: white;
   text-align: center;
   padding: 2rem 1rem;
-  font-size: 1.5rem;
+  font-size: var(--main-title-font-size, 1.5rem);
 }
 
 .feature-article,
 .secondary-article {
-  background-color: #f9f9f9;
+  background-color: var(--normal-article-background);
+  line-height: var(--normal-article-line-height, 1.3);
+}
+
+.feature-article,
+.secondary-article,
+.small-article1,
+.small-article2,
+.small-article3 {
+  border-radius: var(--small-border-radius, 0.5rem);
+  padding: 2rem 1rem;
+  text-align: justify;
 }
 
 .feature-article {
@@ -49,8 +71,10 @@ body {
 
 .small-article1,
 .small-article2,
-small-article3 {
-  background-color: #e9e9e9;
+.small-article3 {
+  background-color: var(--small-article-background, #e9e9e9);
+  font-size: 0.9rem;
+  line-height: var(--small-article-line-height, 1);
 }
 
 .small-article1 {
