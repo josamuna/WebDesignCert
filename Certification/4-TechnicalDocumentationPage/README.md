@@ -1,4 +1,4 @@
-# 4-TechnicalDocumentationPage
+# TechnicalDocumentationPage
 
 Building a Technical Documentation Page Project.
 
