@@ -37,8 +37,6 @@ main {
 #header {
   grid-area: header;
   grid-column: 1 / -1;
-  /* Test border to be removed later */
-  border: 1px solid red;
 }
 
 #header-img {
@@ -49,8 +47,6 @@ main {
 #form-started {
   grid-area: form-started;
   grid-column: 1 / -1;
-  /* Test border to be removed later */
-  border: 1px solid orangered;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,6 +58,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  align-items: center;
 }
 
 #form input {
@@ -74,6 +71,13 @@ input#email {
 
 input#submit {
   background-color: var(--bg-color2, #f1c40f);
+  border: none;
+  width: 45%;
+  border-radius: 0.125rem;
+  font-variant: small-caps;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 #features {
@@ -100,8 +104,6 @@ input#submit {
 #footer {
   grid-area: footer;
   grid-column: 1 / -1;
-  /* Test border to be removed later */
-  border: 1px solid red;
   background-color: var(--bg-color4, #ddd);
   display: grid;
   grid-template-columns: repeat(3, fr);
@@ -132,15 +134,25 @@ input#submit {
   margin-right: 2rem;
 }
 
-#nav-bar ul > li,
-#footer ul > li {
-  border: 1px solid red;
-}
+/* #nav-bar ul > li:hover,
+#footer ul > li:hover {
+  background-color: var(--bg-color3);
+  color: white;
+} */
 
 a.nav-link,
 .foot-link a {
+  display: inline-block;
   text-decoration: none;
   color: var(--text-color1, #4a4141);
+  padding: 0.3rem;
+}
+
+a.nav-link:hover,
+.foot-link a:hover {
+  background-color: var(--bg-color3, #ffa500);
+  color: white;
+  transform: scale(1.2, 1.2);
 }
 
 h2 {
