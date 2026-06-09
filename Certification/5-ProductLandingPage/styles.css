@@ -6,6 +6,7 @@
   --bg-color1: #eeeeee;
   --bg-color2: #f1c40f;
   --bg-color3: #ffa500;
+  --text-color1: #260000;
 }
 
 * {
@@ -28,6 +29,27 @@ main {
     "how_it_works how_it_works how_it_works"
     "pricing pricing pricing"
     "footer footer footer";
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: repeat(6, 1fr); */
+}
+
+#header {
+  grid-area: "header";
+  grid-column: 1 / -1;
+}
+
+#form-started {
+  grid-area: "form-started";
+  grid-column: 1 / -1;
+}
+
+#features {
+  grid-area: "features";
+  grid-column: 1 / -1;
+}
+
+#how_it_works {
+  grid-area: "how_it_works";
 }
 
 #nav-bar {
@@ -39,7 +61,7 @@ main {
 #nav-bar ul {
   display: flex;
   list-style-type: none;
-  gap: 0.85rem;
+  gap: 2.5rem;
 }
 
 h2 {
