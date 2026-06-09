@@ -3,9 +3,10 @@
   --h2-font-size-600: 1.1rem;
   --h2-font-size-550: 0.85rem;
   --h2-font-size-420: 0.75rem;
-  --bg-color1: #eeeeee;
+  --bg-color1: #eee;
   --bg-color2: #f1c40f;
   --bg-color3: #ffa500;
+  --bg-color4: #ddd;
   --text-color1: #260000;
 }
 
@@ -30,26 +31,57 @@ main {
     "pricing pricing pricing"
     "footer footer footer";
   grid-template-columns: repeat(3, 1fr);
-  /* grid-template-rows: repeat(6, 1fr); */
 }
 
 #header {
-  grid-area: "header";
+  grid-area: header;
   grid-column: 1 / -1;
+  /* Test border to be removed later */
+  border: 1px solid red;
 }
 
 #form-started {
-  grid-area: "form-started";
+  grid-area: form-started;
   grid-column: 1 / -1;
+  /* Test border to be removed later */
+  border: 1px solid orangered;
 }
 
 #features {
-  grid-area: "features";
+  grid-area: features;
   grid-column: 1 / -1;
+  /* Test border to be removed later */
+  border: 1px solid blue;
 }
 
 #how_it_works {
-  grid-area: "how_it_works";
+  grid-area: how_it_works;
+  grid-column: 1 / -1;
+  /* Test border to be removed later */
+  border: 1px solid orange;
+}
+
+#pricing {
+  grid-area: pricing;
+  grid-column: 1 / -1;
+  /* Test border to be removed later */
+  border: 1px solid pink;
+}
+
+#footer {
+  grid-area: footer;
+  grid-column: 1 / -1;
+  /* Test border to be removed later */
+  border: 1px solid red;
+  background-color: var(--bg-color4, #ddd);
+  display: grid;
+  grid-template-columns: repeat(3, fr);
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 0.5rem;
+  padding: 1rem 0.5rem;
 }
 
 #nav-bar {
@@ -58,10 +90,22 @@ main {
   right: 0;
 }
 
-#nav-bar ul {
+#nav-bar ul,
+#footer ul {
   display: flex;
   list-style-type: none;
   gap: 2.5rem;
+}
+
+#nav-bar ul > li,
+#footer ul > li {
+  border: 1px solid red;
+}
+
+a.nav-link,
+.foot-link a {
+  text-decoration: none;
+  color: var(--text-color1, #260000);
 }
 
 h2 {
