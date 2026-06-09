@@ -7,7 +7,8 @@
   --bg-color2: #f1c40f;
   --bg-color3: #ffa500;
   --bg-color4: #ddd;
-  --text-color1: #260000;
+  --text-color1: #4a4141;
+  --text-color2: #625f5f;
 }
 
 * {
@@ -40,11 +41,39 @@ main {
   border: 1px solid red;
 }
 
+#header-img {
+  max-width: 25%;
+  margin-left: 2rem;
+}
+
 #form-started {
   grid-area: form-started;
   grid-column: 1 / -1;
   /* Test border to be removed later */
   border: 1px solid orangered;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.5rem 0;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#form input {
+  padding: 0.2rem 0.5rem;
+}
+
+input#email {
+  width: 20rem;
+}
+
+input#submit {
+  background-color: var(--bg-color2, #f1c40f);
 }
 
 #features {
@@ -84,6 +113,10 @@ main {
   padding: 1rem 0.5rem;
 }
 
+#footer p {
+  color: var(--text-color2, #625f5f);
+}
+
 #nav-bar {
   position: fixed;
   top: 0;
@@ -95,6 +128,8 @@ main {
   display: flex;
   list-style-type: none;
   gap: 2.5rem;
+  padding: 1rem 0.5rem 0 0.5rem;
+  margin-right: 2rem;
 }
 
 #nav-bar ul > li,
@@ -105,7 +140,7 @@ main {
 a.nav-link,
 .foot-link a {
   text-decoration: none;
-  color: var(--text-color1, #260000);
+  color: var(--text-color1, #4a4141);
 }
 
 h2 {
