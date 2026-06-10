@@ -86,6 +86,6 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 2. PageOfPlayingCards - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Certification/2-PageOfPlayingCards)
 - [x] 3. BookInventoryApp - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Certification/3-BookInventoryApp)
 - [x] 4. TechnicalDocumentationPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Certification/4-TechnicalDocumentationPage)
-- [ ] 5. ProductLandingPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Certification/5-ProductLandingPage)
+- [x] 5. ProductLandingPage - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Certification/5-ProductLandingPage)
 
 > Learn more from [freeCodeCamp](https://www.freecodecamp.org/) for free and get your certificate.

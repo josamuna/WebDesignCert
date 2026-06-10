@@ -483,4 +483,4 @@ a.nav-link:hover,
 
 ![Image](https://github.com/user-attachments/assets/71635942-7e9e-44e1-9c79-68e4745ee2e6)
 
-![Image](https://github.com/user-attachments/assets/cad6c86b-5c80-43d7-817e-90c897fa8751)
+![Image](https://github.com/user-attachments/assets/120b6338-1919-4399-b02f-ac63467ac438)
