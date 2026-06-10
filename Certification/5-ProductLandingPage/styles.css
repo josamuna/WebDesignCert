@@ -39,7 +39,6 @@ main {
     "footer footer footer";
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
-  padding: 0 1rem 0;
 }
 
 #header {
@@ -50,8 +49,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 98%;
-  border: 1px solid red;
+  width: 100%;
   margin: 0 auto;
   background-color: var(--bg-color1, #eee);
 }
@@ -84,7 +82,7 @@ input#email {
 input#submit {
   background-color: var(--bg-color2);
   border: none;
-  width: 50%;
+  width: 10rem;
   border-radius: 0.125rem;
   text-transform: uppercase;
   font-weight: 600;
@@ -100,6 +98,7 @@ input#submit:hover {
   grid-area: features;
   grid-column: 1 / -1;
   margin-top: 5rem;
+  padding: 0 1rem 0;
 }
 
 .features-item {
@@ -151,6 +150,7 @@ input#submit:hover {
 }
 
 #footer p {
+  font-size: 0.945rem;
   color: var(--text-color2, #625f5f);
 }
 
@@ -159,8 +159,7 @@ input#submit:hover {
   display: flex;
   list-style-type: none;
   gap: 2.5rem;
-  padding: 1rem 0.5rem 0 0.5rem;
-  /* margin-right: 2rem; */
+  padding: 0 0.5rem 0 0.5rem;
 }
 
 a.nav-link,
@@ -168,6 +167,7 @@ a.nav-link,
   display: inline-block;
   text-decoration: none;
   color: var(--text-color1);
+  font-size: 0.945rem;
   padding: 0.3rem;
 }
 
@@ -182,14 +182,15 @@ a.nav-link:hover,
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 5rem 0 3rem;
   gap: 2rem;
+  margin: 5rem 0 3rem;
+  padding: 0 1rem 0;
 }
 
 .product {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 30rem;
   border: 1px solid var(--text-color1);
   border-radius: 0.125rem;
 }
@@ -221,7 +222,7 @@ a.nav-link:hover,
 
 .btn-level {
   display: block;
-  width: 40%;
+  width: 8.25rem;
   margin: 0 auto;
   border: none;
   border-radius: 0.125rem;
