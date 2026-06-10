@@ -6,6 +6,7 @@
   --h2-font-size-600: 1rem;
   --h2-font-size-550: 0.95rem;
   --h2-font-size-420: 0.75rem;
+  --button-size: 1.1rem;
   --bg-color1: #eee;
   --bg-color2: #f1c40f;
   --bg-color3: #ff8c00;
@@ -87,7 +88,7 @@ input#submit {
   border-radius: 0.125rem;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.12rem;
+  font-size: var(--button-size);
   cursor: pointer;
 }
 
@@ -133,8 +134,6 @@ input#submit:hover {
 #pricing {
   grid-area: pricing;
   grid-column: 1 / -1;
-  /* Test border to be removed later */
-  border: 1px solid pink;
 }
 
 #footer {
@@ -183,7 +182,7 @@ a.nav-link:hover,
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 5rem;
+  margin: 5rem 0 3rem;
   gap: 2rem;
 }
 
@@ -192,7 +191,7 @@ a.nav-link:hover,
   flex-direction: column;
   width: 33%;
   border: 1px solid var(--text-color1);
-  border-radius: 0.15rem;
+  border-radius: 0.125rem;
 }
 
 .product ul {
@@ -213,7 +212,30 @@ a.nav-link:hover,
   justify-content: center;
   align-content: center;
   padding: 1.3rem 0 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--text-color1);
+  margin-bottom: 1.5rem;
   background-color: var(--bg-color4);
+}
+
+.btn-level {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0.125rem;
+  text-transform: uppercase;
+  font-size: var(--button-size);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem 1rem;
+  background-color: var(--bg-color2);
+  cursor: pointer;
+}
+
+.btn-level:hover {
+  background-color: var(--bg-color3);
 }
 
 @media only screen and (max-width: 420px) {
