@@ -49,7 +49,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 98%;
   border: 1px solid red;
   margin: 0 auto;
   background-color: var(--bg-color1, #eee);
@@ -83,11 +83,11 @@ input#email {
 input#submit {
   background-color: var(--bg-color2);
   border: none;
-  width: 45%;
+  width: 50%;
   border-radius: 0.125rem;
-  font-variant: small-caps;
+  text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.12rem;
   cursor: pointer;
 }
 
@@ -128,8 +128,6 @@ input#submit:hover {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
-  /* Test border to be removed later */
-  border: 1px solid orange;
 }
 
 #pricing {
@@ -157,12 +155,6 @@ input#submit:hover {
   color: var(--text-color2, #625f5f);
 }
 
-#nav-bar {
-  /* position: fixed;
-  top: 0;
-  right: 0; */
-}
-
 #nav-bar ul,
 #footer ul {
   display: flex;
@@ -171,12 +163,6 @@ input#submit:hover {
   padding: 1rem 0.5rem 0 0.5rem;
   /* margin-right: 2rem; */
 }
-
-/* #nav-bar ul > li:hover,
-#footer ul > li:hover {
-  background-color: var(--bg-color3);
-  color: white;
-} */
 
 a.nav-link,
 .foot-link a {
@@ -191,6 +177,43 @@ a.nav-link:hover,
   background-color: var(--bg-color3);
   color: white;
   transform: scale(1.2, 1.2);
+}
+
+#pricing {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  border: 1px solid var(--text-color1);
+  border-radius: 0.15rem;
+}
+
+.product ul {
+  list-style-type: none;
+}
+
+.product ul > li {
+  line-height: 2.5;
+  text-align: center;
+}
+
+.product h2 {
+  text-align: center;
+}
+
+.level {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1.3rem 0 1.3rem;
+  background-color: var(--bg-color4);
 }
 
 @media only screen and (max-width: 420px) {
