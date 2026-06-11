@@ -34,6 +34,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 23. HousePainting - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/23-HousePainting)
 - [x] 24. AvailabilityTable - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/24-AvailabilityTable)
 - [x] 25. NewspaperLayout - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/25-NewspaperLayout)
+- [ ] 26. MoonOrbit - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Labs/26-MoonOrbit)
 
 ## Workshop
 
