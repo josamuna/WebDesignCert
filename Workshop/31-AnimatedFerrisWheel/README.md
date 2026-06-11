@@ -141,7 +141,7 @@ Building an Animated Ferris Wheel Project.
 
 ## Output
 
-![Image](https://github.com/user-attachments/assets/511eb721-a20a-455a-90fc-39a5b06d97ca)
+![Image](https://github.com/user-attachments/assets/9a8bcba0-4357-40ad-935d-42db80c8ca03)
 
 ---
 
