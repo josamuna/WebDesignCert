@@ -439,4 +439,40 @@ a.nav-link:hover,
 }
 
 @media only screen and (max-width: 2000px) {
+  .icon i {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  input#submit {
+    font-size: 1.1rem;
+  }
+  a.nav-link,
+  .foot-link a,
+  #footer p {
+    font-size: 1rem;
+  }
+
+  #features h2,
+  #form-started h2,
+  #pricing h2 {
+    font-size: 1.35rem;
+  }
+
+  .product ul > li {
+    line-height: 2.5;
+    font-size: 1.125rem;
+  }
+
+  #features p {
+    font-size: 1.1rem;
+  }
+
+  .level {
+    font-size: 1.2rem;
+  }
+
+  .btn-level {
+    font-size: 1.2rem;
+  }
 }
