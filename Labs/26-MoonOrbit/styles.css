@@ -15,12 +15,13 @@ body {
 .earth {
   position: absolute;
   /*transform-origin: 50% 50%;*/
-  top: 25%;
-  left: 25%;
+  top: 50%;
+  left: 50%;
   width: 100px;
   height: 100px;
   border-radius: 50%;
   background-color: #0000ff;
+  transform: translate(-50%, -50%);
   border: 1px solid cyan;
 }
 
@@ -28,10 +29,10 @@ body {
   position: absolute;
   width: 200px;
   height: 200px;
-  bottom: 0;
-  right: 0;
+  transform: translate(-50%, -50%);
   border-radius: 50%;
   border: 1px solid green;
+  animation: orbit 5s linear infinite;
 }
 
 .moon {
@@ -40,7 +41,18 @@ body {
   height: 30px;
   border-radius: 50%;
   top: 0;
-  left: 70%;
+  left: 50%;
+  transform: translate(-50%);
   background-color: #808080;
   border: 1px solid orange;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translate(-50%, -50%);
+  }
+
+  100% {
+    transform: rotate(360deg) translate(-50%, 50%);
+  }
 }
