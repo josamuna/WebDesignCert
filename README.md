@@ -76,6 +76,7 @@ This is a journey of learning to gain a web design certification on freeCodeCamp
 - [x] 29. CitySkyline - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/29-CitySkyline)
 - [x] 30. Magazine - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/30-Magazine)
 - [x] 31. AnimatedFerrisWheel - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/31-AnimatedFerrisWheel)
+- [ ] 32. FlappyPenguin - [Source code](https://github.com/josamuna/WebDesignCert/tree/main/Workshop/32-FlappyPenguin)
 
 ## Certification Projects
 
