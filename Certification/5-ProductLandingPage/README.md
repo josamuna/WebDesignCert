@@ -721,8 +721,44 @@ a.nav-link:hover,
 
 ## Output
 
-### View On Big Screen Size >= 1200px (1920px)
+### View On very Big Big Screen Size (max size of 2000px)
 
-![Image](https://github.com/user-attachments/assets/71635942-7e9e-44e1-9c79-68e4745ee2e6)
+![Image](https://github.com/user-attachments/assets/e4f75038-446f-402c-88a7-a0ee6cbad063)
 
-![Image](https://github.com/user-attachments/assets/120b6338-1919-4399-b02f-ac63467ac438)
+![Image](https://github.com/user-attachments/assets/27e765d6-53fd-4b66-acff-575870b6a6cf)
+
+### View On Big Screen Size (max size of 1200px)
+
+![Image](https://github.com/user-attachments/assets/b473869f-56d3-4d8e-a081-f6a6bba6a80b)
+
+![Image](https://github.com/user-attachments/assets/799e7de4-8532-4692-b1ce-3e3a2dd6130f)
+
+### View On Medium Screen Size (max size of 1024px)
+
+![Image](https://github.com/user-attachments/assets/2e0a566f-4f86-4503-9a69-97b5eb1d12bc)
+
+![Image](https://github.com/user-attachments/assets/f457b32a-fe9a-48d2-aaaa-0647165375cd)
+
+### View On Normal Screen Size (max size of 720px)
+
+![Image](https://github.com/user-attachments/assets/35fb7316-aeb0-4cff-95a0-71e2add84f6a)
+
+![Image](https://github.com/user-attachments/assets/8cf71093-af0c-4a01-88f8-92d92d24dec4)
+
+### View On Small Screen Size (max size of 600px)
+
+![Image](https://github.com/user-attachments/assets/adac453e-d2d4-4924-a443-f47d554e152d)
+
+![Image](https://github.com/user-attachments/assets/3965f11a-5fa5-448d-aa94-b23dc33f7d1d)
+
+### View On very Small Screen Size (max size of 550px)
+
+![Image](https://github.com/user-attachments/assets/7428fa43-c5c0-44fd-9112-417726a1ceee)
+
+![Image](https://github.com/user-attachments/assets/7297878b-e840-4cdd-a0ce-e5b35160bc05)
+
+### View On too Small Screen Size (max size of 420px)
+
+![Image](https://github.com/user-attachments/assets/6c4b36a8-6be9-4e23-bc40-3da0e5589550)
+
+![Image](https://github.com/user-attachments/assets/246fb251-ff07-4cdf-a219-c26e725d9e06)
