@@ -1,26 +1,26 @@
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-}
-
-.class {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  border: 1px solid blue;
 }
 
 .space {
   position: relative;
   width: 200px;
+  height: 200px;
   border: 1px solid red;
 }
 
 .earth {
   position: absolute;
-  transform-origin: 50% 50%;
+  /*transform-origin: 50% 50%;*/
+  top: 25%;
+  left: 25%;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
+  background-color: #0000ff;
   border: 1px solid cyan;
 }
 
@@ -30,5 +30,17 @@ body {
   height: 200px;
   bottom: 0;
   right: 0;
+  border-radius: 50%;
   border: 1px solid green;
+}
+
+.moon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 0;
+  left: 70%;
+  background-color: #808080;
+  border: 1px solid orange;
 }
