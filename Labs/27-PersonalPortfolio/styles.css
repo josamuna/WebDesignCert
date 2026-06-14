@@ -1,0 +1,21 @@
+:root {
+  --bg-color1: #303841;
+  --bg-color2: #343639;
+  --bg-color3: #1f1f22;
+  --bg-color4: #45567d;
+  --text-color: #f0f0f0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+}
+
+@media only screen and (max-width: 720px) {
+  /*
+  Media query insruction */
+}
