@@ -5,3 +5,17 @@
   --bg-color4: #45567d;
   --text-color: #f0f0f0;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+}
+
+@media only screen and (max-width: 720px) {
+  /*
+  Media query insruction */
+}
