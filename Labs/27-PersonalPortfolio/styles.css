@@ -3,6 +3,7 @@
   --bg-color2: #343639;
   --bg-color3: #1f1f22;
   --bg-color4: #45567d;
+  --bg-color5: #be3144;
   --text-color: #f0f0f0;
 }
 
@@ -11,11 +12,92 @@
   margin: 0;
 }
 
-#navbar {
-  position: fixed;
+html {
+  font-size: 16px;
 }
 
-@media only screen and (max-width: 720px) {
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+  display: grid;
+  grid-template-areas:
+    "navbar navbar",
+    "welcome-section welcome-section" "project-section project-section"
+      "profile profile" "footer footer";
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 960px;
+  min-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Grid sections */
+
+/* NAVBAR */
+#navbar {
+  /* position: fixed; */
+  grid-area: "navbar";
+  grid-column: 1 / -1;
+
+  width: 100%;
+  border: 1px solid red;
+  background-color: var(--bg-color5);
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar li {
+  line-height: 2;
+}
+
+#navbar a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  padding: 0.5em 1em;
+}
+
+#navbar a:hover,
+#navbar a:active {
+  background-color: var(--bg-color4);
+}
+
+#welcome-section {
+  grid-area: "welcome-section";
+  grid-column: 1 / -1;
+}
+
+#project-section {
+  grid-area: "project-section";
+  grid-column: 1 / 2;
+}
+
+#profile {
+  grid-area: "profile";
+  grid-column: 1 / -1;
+}
+
+#footer {
+  grid-area: "footer";
+  grid-column: 1 / -1;
+}
+
+/* Devices with max width of 640px and smaller - Small devices */
+@media only screen and (max-width: 640px) {
   /*
   Media query insruction */
+}
+
+/* Devices with the width between 641px and 1024px - Medium devices. */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+}
+
+/* Devices with the width between 1025px and grather - Big devices. */
+@media only screen and (min-width: 1025px) {
 }
