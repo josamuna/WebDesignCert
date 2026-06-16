@@ -8,6 +8,7 @@
 }
 
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -21,6 +22,7 @@ body {
 }
 
 #main {
+  /* position: relative; */
   display: grid;
   grid-template-areas:
     "navbar navbar",
@@ -37,14 +39,16 @@ body {
 
 /* NAVBAR */
 #navbar {
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
+  left: 0;
   grid-area: "navbar";
   grid-column: 1 / -1;
 
   width: 100%;
-  border: 1px solid red;
   background-color: var(--bg-color5);
 }
+
 #navbar ul {
   list-style-type: none;
   display: flex;
@@ -52,7 +56,7 @@ body {
 }
 
 #navbar li {
-  line-height: 2;
+  line-height: 3;
 }
 
 #navbar a {
@@ -64,9 +68,11 @@ body {
 }
 
 #navbar a:hover,
-#navbar a:active {
+#navbar a:focus {
   background-color: var(--bg-color4);
 }
+
+/* Welcome Section */
 
 #welcome-section {
   grid-area: "welcome-section";
@@ -92,12 +98,65 @@ body {
 @media only screen and (max-width: 640px) {
   /*
   Media query insruction */
+  #main {
+    grid-template-columns: 1fr;
+  }
+
+  #navbar,
+  #welcome-section,
+  #project-section,
+  #profile,
+  #footer {
+    grid-column: 1;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  #main {
+    grid-template-columns: 1fr;
+  }
+
+  #navbar,
+  #welcome-section,
+  #project-section,
+  #profile,
+  #footer {
+    grid-column: 1;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar a {
+    padding: 0 1em;
+  }
+
+  #navbar li {
+    line-height: 2.5;
+  }
 }
 
 /* Devices with the width between 641px and 1024px - Medium devices. */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
+  * {
+    font-size: 105%;
+  }
+
+  #navbar a {
+    font-size: 1.25rem;
+  }
 }
 
 /* Devices with the width between 1025px and grather - Big devices. */
 @media only screen and (min-width: 1025px) {
+  #navbar a {
+    font-size: 1.35rem;
+  }
 }
