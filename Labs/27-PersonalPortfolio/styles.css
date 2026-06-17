@@ -4,6 +4,7 @@
   --bg-color3: #1b1a1c;
   --bg-color4: #45567d;
   --bg-color5: #be3144;
+  --bg-color6: #31beab;
   --text-color: #f0f0f0;
 }
 
@@ -27,7 +28,7 @@ body {
   grid-template-areas:
     "navbar navbar"
     "welcome-section welcome-section" "project-section project-section"
-    "profile profile" "footer footer";
+    "profile-link profile-link" "footer footer";
   grid-template-columns: repeat(2, 1fr);
   /* 
   This line implies an issue when setting up background
@@ -82,7 +83,7 @@ body {
   grid-column: 1 / -1;
   display: flex;
   flex-direction: column;
-  padding: 10em 2em;
+  padding: 12em 2em;
   background: linear-gradient(
     45deg,
     var(--bg-color1) 20%,
@@ -141,10 +142,10 @@ body {
   display: inline-block;
 }
 
-/* PROFILE SECTION */
+/* PROFILE ECTION */
 
-#profile {
-  grid-area: profile;
+#profile-link {
+  grid-area: profile-link;
   grid-column: 1 / -1;
   background: linear-gradient(
     45deg,
@@ -155,20 +156,21 @@ body {
   border-bottom: 5px solid var(--bg-color5);
 }
 
-.profile-link {
+.profile-container {
   display: flex;
   justify-content: center;
   gap: 1.5em;
   padding: 2em 0;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
 }
 
-.btn:hover,
-.btn:focus {
+.profile-container a:hover,
+.profile-container a:focus {
   transform: translateY(10px);
+  transition: all ease-in-out 0.5s;
 }
 
-#profile a,
+#profile-link a,
 #footer a {
   text-decoration: none;
   color: var(--text-color);
@@ -212,7 +214,11 @@ body {
 
 #footer p {
   color: var(--text-color);
-  text-align: justify;
+  text-align: left;
+}
+
+#footer a:hover {
+  color: var(--bg-color6);
 }
 
 /* Devices with max width of 640px and smaller - Small devices */
@@ -224,7 +230,7 @@ body {
   #navbar,
   #welcome-section,
   #project-section,
-  #profile,
+  #profile-link,
   #footer {
     grid-column: 1;
   }
@@ -234,10 +240,46 @@ body {
     align-items: center;
   }
 
+  #navbar a {
+    font-size: 1.1rem;
+  }
+
+  #navbar li {
+    line-height: 2;
+  }
+
   #project-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-column: 1 / -1;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  #welcome-section p {
+    font-size: 1rem;
+  }
+
+  #project-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .profile-container {
+    font-size: 1rem;
+  }
+
+  .profile-header h2 {
+    font-size: 2rem;
+  }
+
+  .profile-header p {
+    font-size: 0.95rem;
+  }
+
+  #footer p {
+    font-size: 0.95rem;
   }
 }
 
@@ -249,7 +291,7 @@ body {
   #navbar,
   #welcome-section,
   #project-section,
-  #profile,
+  #profile-link,
   #footer {
     grid-column: 1;
   }
@@ -260,28 +302,70 @@ body {
   }
 
   #navbar a {
-    padding: 0 1em;
+    font-size: 1.1rem;
   }
 
   #navbar li {
-    line-height: 2.5;
+    line-height: 2;
+  }
+
+  #title {
+    font-size: 2.5rem;
+  }
+
+  #welcome-section p {
+    font-size: 1.3rem;
+  }
+
+  #project-section h2 {
+    font-size: 2.2rem;
   }
 }
 
 /* Devices with the width between 641px and 1024px - Medium devices. */
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
-  * {
-    font-size: 105%;
+  #navbar a {
+    font-size: 1.2rem;
   }
 
-  #navbar a {
-    font-size: 1.25rem;
+  .profile-header h2 {
+    font-size: 2.5rem;
+  }
+
+  .profile-header p {
+    font-size: 0.95rem;
+  }
+
+  #title {
+    font-size: 2.7rem;
+  }
+
+  #welcome-section p {
+    font-size: 1.5rem;
+  }
+
+  #project-section h2 {
+    font-size: 2.5rem;
   }
 }
 
 /* Devices with the width between 1025px and grather - Big devices. */
 @media only screen and (min-width: 1025px) {
   #navbar a {
-    font-size: 1.35rem;
+    font-size: 1.27rem;
+  }
+
+  .profile-header h2 {
+    font-size: 3rem;
+  }
+
+  .profile-header p {
+    font-size: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
   }
 }
