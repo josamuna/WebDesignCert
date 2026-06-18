@@ -148,10 +148,7 @@ body {
 .project-img {
   object-fit: cover;
   width: 100%;
-  /* object-fit: cover; */
-  /* height: calc(100% - 3.5rem); */
-  /* width: 80%; */
-  /* display: block; */
+  height: calc(100% - 5em);
 }
 
 .project-title {
@@ -293,12 +290,6 @@ body {
 
   #navbar li {
     line-height: 2;
-  }
-
-  #project-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-column: 1 / -1;
   }
 
   #title {
