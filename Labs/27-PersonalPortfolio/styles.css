@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 4.5rem;
 }
 
 a {
@@ -85,7 +85,6 @@ p {
     "welcome-section welcome-section" "project-section project-section"
     "profile-link profile-link" "footer footer";
   grid-template-columns: repeat(2, 1fr);
-  /* min-width: 640px; */
   width: 100%;
   margin: 0 auto;
 }
@@ -104,6 +103,7 @@ p {
   background-color: var(--bg-color5);
   display: flex;
   justify-content: flex-end;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 #navbar ul {
@@ -123,6 +123,7 @@ p {
 }
 
 /* WELCOME SECTION */
+
 #welcome-section {
   grid-area: welcome-section;
   grid-column: 1 / -1;
@@ -147,41 +148,41 @@ p {
 }
 
 /* PROJECT SECTION */
+
 #project-section {
   grid-area: project-section;
   grid-column: 1 / -1;
   background-color: var(--bg-color4);
-  padding: 4em 2em;
+  padding: 0 2em;
   text-align: center;
 }
 
 #project-section h2 {
-  /* padding: 2em 0 0em; */
-  margin: 0 auto 2em auto;
+  margin: 2.5em auto 1em;
   border-bottom: 1px solid var(--text-color);
-  /* width: 600px; */
-  /* padding-bottom: 0.12em; */
+  max-width: 640px;
+  padding-bottom: 0.15em;
 }
 
 #project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 4em 4em;
-  margin-bottom: 4em;
+  margin: 0 auto 4em;
+  max-width: 1280px;
 }
 
 .project {
-  display: grid;
-  grid-template-rows: 1fr auto;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   border-radius: 0 0 0.5em 0.5em;
   overflow: hidden;
+  background-color: var(--bg-color1);
 }
 
 .project-img {
-  /* object-fit: cover; */
+  object-fit: cover;
   width: 100%;
-  height: calc(100% - 0.1em);
+  height: calc(100% - 7rem);
 }
 
 .project-title {
@@ -227,6 +228,7 @@ p {
 }
 
 /* PROFILE SECTION */
+
 #profile-link {
   grid-area: profile-link;
   grid-column: 1 / -1;
@@ -236,7 +238,7 @@ p {
     var(--bg-color2) 60%,
     var(--bg-color3) 80%
   );
-  height: 80vh;
+  height: 82vh;
   border-bottom: 5px solid var(--bg-color5);
 
   display: flex;
@@ -345,7 +347,7 @@ p {
   }
 }
 
-/* Devices with the width between 1025px and grather - Big devices. */
+/* Devices with the width from 1025px and greather - Big devices. */
 @media only screen and (min-width: 64.0625em) {
   /* 
     Max screen size / Base Font size => 1025px / 16px = 64em

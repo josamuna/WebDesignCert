@@ -43,8 +43,8 @@ Designing a Personal Portfolio Project.
           >
             <img
               class="project-img"
-              src="https://cdn.corenexis.com/f/cKZ1972NCEZ.png"
-              alt="Feature Selection Page"
+              src="https://cdn.corenexis.com/f/t6oBw70s1mx.png"
+              alt="Feature Selection Page."
             />
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -59,8 +59,8 @@ Designing a Personal Portfolio Project.
           >
             <img
               class="project-img"
-              src="https://cdn.corenexis.com/f/j66LcQDLqv2.png"
-              alt="Book Inventory App"
+              src="https://cdn.corenexis.com/f/ECoxfsqWbYP.png"
+              alt="Book Inventory App."
             />
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -75,8 +75,8 @@ Designing a Personal Portfolio Project.
           >
             <img
               class="project-img"
-              src="https://cdn.corenexis.com/f/kySPhzVXBPd.png"
-              alt="Technical Documentation Page"
+              src="https://cdn.corenexis.com/f/U0FCxrLjhR5.png"
+              alt="Technical Documentation Page."
             />
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -92,7 +92,7 @@ Designing a Personal Portfolio Project.
             <img
               class="project-img"
               src="https://cdn.corenexis.com/f/hFYaGrR6koe.png"
-              alt="Product Landing Page"
+              alt="Product Landing Page."
             />
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -107,8 +107,8 @@ Designing a Personal Portfolio Project.
           >
             <img
               class="project-img"
-              src="https://cdn.corenexis.com/f/VFOjKOql0Vt.png"
-              alt="Confidential Email Page"
+              src="https://cdn.corenexis.com/f/aBJlFV7BwRX.png"
+              alt="Confidential Email Page."
             />
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -123,8 +123,8 @@ Designing a Personal Portfolio Project.
           >
             <img
               class="project-img"
-              src="https://cdn.corenexis.com/f/oPfKbHWTdkb.png"
-              alt="PricingPlansLayoutPage"
+              src="https://cdn.corenexis.com/f/50IKnOZ7KAG.png"
+              alt="Pricing Plans Layout Page."
             />
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -226,7 +226,7 @@ h1 {
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 4.5rem;
 }
 
 a {
@@ -269,7 +269,6 @@ p {
     "welcome-section welcome-section" "project-section project-section"
     "profile-link profile-link" "footer footer";
   grid-template-columns: repeat(2, 1fr);
-  /* min-width: 640px; */
   width: 100%;
   margin: 0 auto;
 }
@@ -288,6 +287,7 @@ p {
   background-color: var(--bg-color5);
   display: flex;
   justify-content: flex-end;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 #navbar ul {
@@ -307,6 +307,7 @@ p {
 }
 
 /* WELCOME SECTION */
+
 #welcome-section {
   grid-area: welcome-section;
   grid-column: 1 / -1;
@@ -331,41 +332,41 @@ p {
 }
 
 /* PROJECT SECTION */
+
 #project-section {
   grid-area: project-section;
   grid-column: 1 / -1;
   background-color: var(--bg-color4);
-  padding: 4em 2em;
+  padding: 0 2em;
   text-align: center;
 }
 
 #project-section h2 {
-  /* padding: 2em 0 0em; */
-  margin: 0 auto 2em auto;
+  margin: 2.5em auto 1em;
   border-bottom: 1px solid var(--text-color);
-  /* width: 600px; */
-  /* padding-bottom: 0.12em; */
+  max-width: 640px;
+  padding-bottom: 0.15em;
 }
 
 #project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 4em 4em;
-  margin-bottom: 4em;
+  margin: 0 auto 4em;
+  max-width: 1280px;
 }
 
 .project {
-  display: grid;
-  grid-template-rows: 1fr auto;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   border-radius: 0 0 0.5em 0.5em;
   overflow: hidden;
+  background-color: var(--bg-color1);
 }
 
 .project-img {
-  /* object-fit: cover; */
+  object-fit: cover;
   width: 100%;
-  height: calc(100% - 0.1em);
+  height: calc(100% - 7rem);
 }
 
 .project-title {
@@ -411,6 +412,7 @@ p {
 }
 
 /* PROFILE SECTION */
+
 #profile-link {
   grid-area: profile-link;
   grid-column: 1 / -1;
@@ -420,7 +422,7 @@ p {
     var(--bg-color2) 60%,
     var(--bg-color3) 80%
   );
-  height: 80vh;
+  height: 82vh;
   border-bottom: 5px solid var(--bg-color5);
 
   display: flex;
@@ -529,7 +531,7 @@ p {
   }
 }
 
-/* Devices with the width between 1025px and grather - Big devices. */
+/* Devices with the width from 1025px and greather - Big devices. */
 @media only screen and (min-width: 64.0625em) {
   /* 
     Max screen size / Base Font size => 1025px / 16px = 64em
@@ -548,4 +550,44 @@ p {
 
 ## Output
 
-![Image]()
+### Very Small Screens (Width ~ 500px)
+
+![Image](https://github.com/user-attachments/assets/a996ffa0-2400-4471-9a68-eec7ace629d3)
+
+![Image](https://github.com/user-attachments/assets/1c828e4e-34ec-4a60-b2fb-d5972dfe4506)
+
+![Image](https://github.com/user-attachments/assets/5fd9e4f3-ce11-4e6d-87c0-8e01066bd4de)
+
+### Small Screens (With max width of 640px)
+
+![Image](https://github.com/user-attachments/assets/04c7bbde-95b9-4f85-a39a-653ba5851e04)
+
+![Image](https://github.com/user-attachments/assets/694e41be-ea83-4705-9690-32feba5a931e)
+
+![Image](https://github.com/user-attachments/assets/212ea166-db06-49de-a49d-e83b2ff90185)
+
+![Image](https://github.com/user-attachments/assets/337a4420-a283-4ffd-b254-c1f4dd42b43f)
+
+![Image](https://github.com/user-attachments/assets/2418c44c-3208-4d8f-b006-16d3372ca799)
+
+![Image](https://github.com/user-attachments/assets/38e14461-ec39-4f42-b549-6e715124548d)
+
+### Medium Screens (With witdh between 641px and 1024px)
+
+![Image](https://github.com/user-attachments/assets/5d58f467-d3e9-47aa-a135-d067f25bbed0)
+
+![Image](https://github.com/user-attachments/assets/8025070b-732a-4658-bf2f-04c844a0755b)
+
+![Image](https://github.com/user-attachments/assets/530be08b-ac95-463a-9b9b-cb23074cd786)
+
+![Image](https://github.com/user-attachments/assets/8242e543-5cf6-47f2-af3c-0d6d7c08a08a)
+
+### Big Screens (With width from 1025px and greather)
+
+![Image](https://github.com/user-attachments/assets/5dac9921-0b9e-47e4-b638-c2825ea7239f)
+
+![Image](https://github.com/user-attachments/assets/6d794e27-6ff0-4905-ab2b-f59febf8bfc9)
+
+![Image](https://github.com/user-attachments/assets/89bc721a-7e6c-4ab3-b5bf-ad690be2ed7b)
+
+![Image](https://github.com/user-attachments/assets/170aac72-2f41-49e2-a556-40a812dc7230)
