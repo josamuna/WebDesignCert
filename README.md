@@ -1,6 +1,7 @@
 # WebDesignCert
 
 This is a journey of learning to gain a web design certification on freeCodeCamp. The repository will be organized to show workshop projects (course material) and labs (completed projects) with corresponding screenshots.
+**_[This link gives more info about the work done](https://josueportfolio-profile.vercel.app/)_**. 
 
 ## Labs
 
