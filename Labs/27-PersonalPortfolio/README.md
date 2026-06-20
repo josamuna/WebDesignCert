@@ -5,7 +5,180 @@ Designing a Personal Portfolio Project.
 ## Source Code
 
 ```html
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+  </head>
+  <body>
+    <main id="main">
+      <nav id="navbar">
+        <ul>
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#project-section">Work</a></li>
+          <li><a href="#profile-link">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="welcome-section">
+        <h1>Hey! I am Josu&eacute; Isamuna Nkembo</h1>
+        <p>a web developer</p>
+      </section>
+      <section id="project-section">
+        <h2>These are some of my projects</h2>
+        <div id="project-grid">
+          <a
+            href="https://github.com/josamuna/WebDesignCert/tree/main/Labs/18-FeatureSelectionPage"
+            class="project"
+            target="_blank"
+          >
+            <img
+              class="project-img"
+              src="https://cdn.corenexis.com/f/cKZ1972NCEZ.png"
+              alt="Feature Selection Page"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Feature Selection Page
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://github.com/josamuna/WebDesignCert/tree/main/Certification/3-BookInventoryApp"
+            class="project"
+            target="_blank"
+          >
+            <img
+              class="project-img"
+              src="https://cdn.corenexis.com/f/j66LcQDLqv2.png"
+              alt="Book Inventory App"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Book Inventory App
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://github.com/josamuna/WebDesignCert/tree/main/Certification/4-TechnicalDocumentationPage"
+            class="project"
+            target="_blank"
+          >
+            <img
+              class="project-img"
+              src="https://cdn.corenexis.com/f/kySPhzVXBPd.png"
+              alt="Technical Documentation Page"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Technical Documentation Page
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://github.com/josamuna/WebDesignCert/tree/main/Certification/5-ProductLandingPage"
+            class="project"
+            target="_blank"
+          >
+            <img
+              class="project-img"
+              src="https://cdn.corenexis.com/f/hFYaGrR6koe.png"
+              alt="Product Landing Page"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Product Landing Page
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://github.com/josamuna/WebDesignCert/tree/main/Labs/19-ConfidentialEmailPage"
+            class="project"
+            target="_blank"
+          >
+            <img
+              class="project-img"
+              src="https://cdn.corenexis.com/f/VFOjKOql0Vt.png"
+              alt="Confidential Email Page"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Confidential Email Page
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+          <a
+            href="https://github.com/josamuna/WebDesignCert/tree/main/Labs/20-PricingPlansLayoutPage"
+            class="project"
+            target="_blank"
+          >
+            <img
+              class="project-img"
+              src="https://cdn.corenexis.com/f/oPfKbHWTdkb.png"
+              alt="PricingPlansLayoutPage"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Pricing PlansLayout Page
+              <span class="code">/&gt;</span>
+            </p>
+          </a>
+        </div>
+        <a
+          href="https://github.com/josamuna/WebDesignCert/"
+          class="all-project"
+          target="_blank"
+        >
+          Show all <i class="fas fa-chevron-right"></i>
+        </a>
+      </section>
+      <section id="profile-link">
+        <div class="profile-header">
+          <h2>Let's work together...</h2>
+          <p>How do you take your coffee?</p>
+        </div>
+        <div class="profile-container">
+          <a href="https://web.facebook.com/josamuna" target="_blank"
+            ><i class="fab fa-facebook-square"></i> Facebook</a
+          >
+          <a href="https://github.com/josamuna" target="_blank"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+          <a href="https://x.com/josamuna" target="_blank"
+            ><i class="fab fa-twitter"></i> Twitter</a
+          >
+          <a href="mailto:josamuna2009@gmail.com"
+            ><i class="fas fa-at"></i> Send a mail</a
+          >
+          <a href="tel:+243-972-727-527"
+            ><i class="fas fa-mobile-alt"></i> Call me</a
+          >
+        </div>
+      </section>
+      <footer id="footer">
+        <p>
+          **This is my portfolio. All contact details given are real. Do not
+          hesitateto reach me.
+        </p>
+        <p>
+          © 2026. Created to gain a Responsive Web Design Certification on
+          <a href="https://www.freecodecamp.org/" target="_blank"
+            >freeCodeCamp&nbsp;<i class="fab fa-free-code-camp"></i
+          ></a>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
 ```
 
 ```css
