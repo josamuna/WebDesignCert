@@ -182,7 +182,368 @@ Designing a Personal Portfolio Project.
 ```
 
 ```css
+/* 
+  Fontsize Calculation:
+  - Default fontsize = 16px = 1rem
+  - 16px = 100%, 1px = 100 / 16 = 6.25% 
+  - By considering 1rem = 10px => 1rem = 10px = 62.5%  
+ */
 
+:root {
+  --bg-color1: #383b3e;
+  --bg-color2: #28292c;
+  --bg-color3: #1b1a1c;
+  --bg-color4: #45567d;
+  --bg-color5: #be3144;
+  --bg-color6: #31beab;
+  --text-color: #f0f0f0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* BASE STYLING */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2 {
+  color: var(--text-color);
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+p {
+  color: var(--text-color);
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+/* MAIN CONTAINER */
+
+#main {
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "navbar navbar"
+    "welcome-section welcome-section" "project-section project-section"
+    "profile-link profile-link" "footer footer";
+  grid-template-columns: repeat(2, 1fr);
+  /* min-width: 640px; */
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* GRID SECTIONS */
+
+/* NAVBAR */
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  grid-area: navbar;
+  grid-column: 1 / -1;
+  width: 100%;
+  background-color: var(--bg-color5);
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar ul {
+  display: flex;
+  margin-right: 2em;
+}
+
+#navbar a {
+  display: block;
+  font-size: 2.5rem;
+  padding: 1em 1em;
+}
+
+#navbar a:hover,
+#navbar a:focus {
+  background-color: var(--bg-color4);
+}
+
+/* WELCOME SECTION */
+#welcome-section {
+  grid-area: welcome-section;
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    45deg,
+    var(--bg-color1) 20%,
+    var(--bg-color2) 60%,
+    var(--bg-color3) 80%
+  );
+  text-align: center;
+  gap: 2em;
+}
+
+#welcome-section p {
+  color: var(--bg-color5);
+  font-size: 3rem;
+  font-style: italic;
+}
+
+/* PROJECT SECTION */
+#project-section {
+  grid-area: project-section;
+  grid-column: 1 / -1;
+  background-color: var(--bg-color4);
+  padding: 4em 2em;
+  text-align: center;
+}
+
+#project-section h2 {
+  /* padding: 2em 0 0em; */
+  margin: 0 auto 2em auto;
+  border-bottom: 1px solid var(--text-color);
+  /* width: 600px; */
+  /* padding-bottom: 0.12em; */
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 4em 4em;
+  margin-bottom: 4em;
+}
+
+.project {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 0.5em 0.5em;
+  overflow: hidden;
+}
+
+.project-img {
+  /* object-fit: cover; */
+  width: 100%;
+  height: calc(100% - 0.1em);
+}
+
+.project-title {
+  display: block;
+  background-color: var(--bg-color1);
+  font-size: 2rem;
+  padding: 1em 0 1em;
+}
+
+.code {
+  color: var(--bg-color1);
+}
+
+.project:hover .code,
+.project:focus .code {
+  color: orange;
+  transition: color 0.3s ease-out;
+}
+
+.all-project {
+  display: inline-block;
+  font-size: 2.2rem;
+  background-color: var(--bg-color1);
+  padding: 1em 2em;
+  margin-bottom: 2em;
+}
+
+.all-project i {
+  margin-left: 0.3em;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.all-project:hover,
+.all-project:focus {
+  background-color: var(--bg-color5);
+}
+
+.all-project:hover i,
+.all-project:focus i {
+  transform: translateX(5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* PROFILE SECTION */
+#profile-link {
+  grid-area: profile-link;
+  grid-column: 1 / -1;
+  background: linear-gradient(
+    45deg,
+    var(--bg-color1) 20%,
+    var(--bg-color2) 60%,
+    var(--bg-color3) 80%
+  );
+  height: 80vh;
+  border-bottom: 5px solid var(--bg-color5);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3em;
+  padding: 2em 0;
+}
+
+.profile-container a {
+  transform: translateY(0);
+  transition: transform 0.3s ease-out;
+  font-size: 2.5rem;
+}
+
+.profile-container a:hover,
+.profile-container a:focus {
+  transform: translateY(10px);
+  transition: transform 0.3s ease-out;
+}
+
+.profile-header h2 {
+  font-size: 6.5rem;
+  padding-bottom: 0.2em;
+}
+
+.profile-header p {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+  grid-area: footer;
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2.5em 1.5em;
+  gap: 1em;
+  align-items: center;
+  font-size: 1.8rem;
+
+  background: linear-gradient(
+    45deg,
+    var(--bg-color1) 20%,
+    var(--bg-color2) 60%,
+    var(--bg-color3) 80%
+  );
+}
+
+#footer p {
+  line-height: 1.5;
+}
+
+#footer i {
+  vertical-align: middle;
+}
+
+#footer a:hover {
+  color: var(--bg-color6);
+}
+
+/* Devices with max width of 640px and smaller - Small devices */
+@media only screen and (max-width: 40em) {
+  /* 
+    Font calculation from screen size,
+    Max screen size / Base Font size => 640px / 16px = 40em 
+   */
+  html {
+    font-size: 60%;
+  }
+
+  #navbar {
+    justify-content: center;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  html {
+    font-size: 60%;
+  }
+
+  #navbar {
+    justify-content: center;
+  }
+}
+
+/* Devices with the width between 641px and 1024px - Medium devices. */
+@media only screen and (max-width: 64em) {
+  /* 
+    Max screen size / Base Font size => 1024px / 16px = 64em
+  */
+  html {
+    font-size: 58%;
+  }
+}
+
+/* Devices with the width between 1025px and grather - Big devices. */
+@media only screen and (min-width: 64.0625em) {
+  /* 
+    Max screen size / Base Font size => 1025px / 16px = 64em
+  */
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
 ```
 
 ## Output
